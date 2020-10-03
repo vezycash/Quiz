@@ -1,6 +1,6 @@
 const quiz = [
   {
-    title: "What's Earth's biggest satellite?",
+    question: "What's Earth's biggest satellite?",
     choices: [
       "Moon",
       "Spitzer Space Telescope",
@@ -10,54 +10,54 @@ const quiz = [
     answer: "Moon",
   },
   {
-    title: "The country with the largest population is",
+    question: "The country with the largest population is",
     choices: ["India", "China", "America", "Brazil"],
     answer: "China",
   },
   {
-    title: "One of the following organisms is very beneficial to the soil?",
+    question: "One of the following organisms is very beneficial to the soil?",
     choices: ["Manure", "bettles", "nematodes", "earth worms"],
     answer: "earth worms",
   },
   {
-    title: "Which element has an atomic mass of 12",
+    question: "Which element has an atomic mass of 12",
     choices: ["hydrogen", "nitrogen", "carbon", "oxygen"],
     answer: "carbon",
   },
   {
-    title:
+    question:
       "On 27th May 1967, three of the following states were carved out from Northern Nigeria - EXCEPT.",
     choices: ["Kwara", "Kano", "kaduna", "kebbi"],
     answer: "kebbi",
   },
   {
-    title:
+    question:
       "The first state to be created from Eastern Region, Nigeria on 27 May, 1967  is?",
     choices: ["Rivers State", "Imo State", "Anambra State", "enugu state"],
     answer: "Rivers State",
   },
   {
-    title: "Which animal is a descendant of dinosaurs?",
+    question: "Which animal is a descendant of dinosaurs?",
     choices: ["chicken", "pig", "cat", "dog"],
     answer: "chicken",
   },
   {
-    title: "Butter is made from:",
+    question: "Butter is made from:",
     choices: ["milk", "lard", "vegetable oil", "raspian fruit"],
     answer: "milk",
   },
   {
-    title: "One of the following is not among the consumed vegetable oils.",
+    question: "One of the following is not among the consumed vegetable oils.",
     choices: ["corn oil", "palm oil", "sunflower oil", "cashew oil"],
     answer: "cashew oil",
   },
   {
-    title: "Egg shells are made from?",
+    question: "Egg shells are made from?",
     choices: ["calcium", "magnesium", "sodium", "phosphorus"],
     answer: "calcium",
   },
   {
-    title: "Primary colors are ",
+    question: "Primary colors are ",
     choices: [
       "red, blue, yellow",
       "red, blue, green",
@@ -67,12 +67,12 @@ const quiz = [
     answer: "red, blue, yellow",
   },
   {
-    title: "A shape with 5 sides is called?",
+    question: "A shape with 5 sides is called?",
     choices: ["pentagon", "cuboid", "hexagon", "pentagon"],
     answer: "pentagon",
   },
   {
-    title: "PC stands for",
+    question: "PC stands for",
     choices: [
       "personal computer",
       "personal chip",
@@ -82,108 +82,108 @@ const quiz = [
     answer: "personal computer",
   },
   {
-    title:
+    question:
       "A malicious code that spreads through a network by itself is caled a?",
     choices: ["virus", "root kit", "trojan", "worm"],
     answer: "worm",
   },
   {
-    title:
+    question:
       "Ancient greeks defeated the city of ____  by giving them a giant wooden statue containing soldiers?",
     choices: ["sparta", "Patras", "rome", "trojan"],
     answer: "trojan",
   },
   {
-    title: "One of the following is not a god of thunder.",
+    question: "One of the following is not a god of thunder.",
     choices: ["loki", "thor", "sango", "amadioha"],
     answer: "loki",
   },
   {
-    title:
+    question:
       "____ are materials that don't allow heat or electricity to flow through readily",
     choices: ["insulators", "conductors", "diodes", "resistors"],
     answer: "insulators",
   },
   {
-    title: "One of the following is an excellent insulator",
+    question: "One of the following is an excellent insulator",
     choices: ["gold", "copper", "pure water", "silver"],
     answer: "pure water",
   },
   {
-    title: "One of the following cannot be used to store electricity",
+    question: "One of the following cannot be used to store electricity",
     choices: ["capacitor", "battery", "cellulite", "salt"],
     answer: "cellulite",
   },
   {
-    title: "The following are input devices except:",
+    question: "The following are input devices except:",
     choices: ["mouse", "touch screen", "speaker", "stylus"],
     answer: "speaker",
   },
   {
-    title: "The following are top 10 programming languages except",
+    question: "The following are top 10 programming languages except",
     choices: ["python", "java", "javascript", "scala"],
     answer: "scala",
   },
   {
-    title:
+    question:
       "Excreta of farm animals can be used to produce all of the following except",
     choices: ["methane", "electricity", "manure", "roughage"],
     answer: "roughage",
   },
   {
-    title: "What part of cows is Pomo is made from:",
+    question: "What part of cows is Pomo is made from:",
     choices: ["intestine", "oesophagus", "skin", "stomach"],
     answer: "skin",
   },
   {
-    title:
+    question:
       "In sensible countries, the animal part used to make pomo, is used for:",
     choices: ["spare parts", "door", "beef", "leather"],
     answer: "leather",
   },
   {
-    title: "The favorite food of king cobras is:",
+    question: "The favorite food of king cobras is:",
     choices: ["fish", "mice", "snakes", "frogs"],
     answer: "snakes",
   },
   {
-    title: "The most used operating system is:",
+    question: "The most used operating system is:",
     choices: ["windows", "ios", "mac book", "android"],
     answer: "android",
   },
   {
-    title: "Plants make their food through:",
+    question: "Plants make their food through:",
     choices: ["hydrolysis", "respiration", "transpiration", "photosynthesis"],
     answer: "photosynthesis",
   },
   {
-    title:
+    question:
       "Before electricity food one common method of food preservation was:",
     choices: ["grinding", "munching", "salting", "burying"],
     answer: "salting",
   },
   {
-    title: "A goat that makes friends with a dog will learn to",
+    question: "A goat that makes friends with a dog will learn to",
     choices: ["eat bone", "chase its tail", "bark", "eat excreta"],
     answer: "eat excreta",
   },
   {
-    title: "A file has the name sumer.mp4 - the .MP4 part is called",
+    question: "A file has the name sumer.mp4 - the .MP4 part is called",
     choices: ["file clip", "file partition", "file extension", "file name"],
     answer: "file extension",
   },
   {
-    title: "_____ produce the oxygen we breathe",
+    question: "_____ produce the oxygen we breathe",
     choices: ["animals", "micro organisms", "plants", "science"],
     answer: "plants",
   },
   {
-    title: "A device that produces electricity from moving air is called",
+    question: "A device that produces electricity from moving air is called",
     choices: ["solar panel", "generator", "wind mill", "wind turbine"],
     answer: "wind turbine",
   },
   {
-    title:
+    question:
       "The device used to protect buildings from ligtening strikes is called",
     choices: [
       "lightening protector",
@@ -194,49 +194,43 @@ const quiz = [
     answer: "lightening rod",
   },
   {
-    title: "Corn can be used to make the following except",
+    question: "Corn can be used to make the following except",
     choices: ["bitumen", "bio plastic", "flour", "ethanol"],
     answer: "bitumen",
   },
   {
-    title: "The part of the computer that can be touched is called",
+    question: "The part of the computer that can be touched is called",
     choices: ["hardware", "people ware", "middle ware", "software"],
     answer: "hardware",
   },
   {
-    title:
+    question:
       "The data that the CPU needs for calculations is temporarily kept in the",
     choices: ["CPU", "hard disk", "RAM", "ROM"],
     answer: "RAM",
   },
   {
-    title: "The best place to hide a tree is in the",
+    question: "The best place to hide a tree is in the",
     choices: ["village", "barracks", "bush", "forest"],
     answer: "forrest",
   },
   {
-    title: "Phone numbers is to phones as ______ is to internet",
+    question: "Phone numbers is to phones as ______ is to internet",
     choices: ["url", "domain name", "website", "ip address"],
     answer: "ip address",
   },
   {
-    title: "Human beings are made of 70%",
+    question: "Human beings are made of 70%",
     choices: ["meat", "bone", "water", "fat"],
     answer: "water",
   },
   {
-    title: "The basis of life is",
+    question: "The basis of life is",
     choices: ["water", "carbon", "spirit", "energy"],
     answer: "carbon",
   },
 ];
-/* todo: 
-once I implement local storage, next:
-   change questions array to hold 10 questions instead of just the quiz indexes.
-   randomize the choices (possible) answer on question array creation too
 
-for now --- marking answers, pass question how?
-*/
 let score = 0;
 let questions;
 const numberOfQuestion = 10;
@@ -244,11 +238,9 @@ let count;
 let quizUL = document.getElementById("quiz");
 let quizTitle = document.getElementById("quizTitle");
 let submitBTN = document.getElementById("submit");
-let userChoice = document.querySelector('input[name="userChoice"]');
-let radios;
-let question;
+let userChoice = document.querySelector('input[name="userChoice"]:checked');
 
-submitBTN.addEventListener("click", markAnswer);
+submitBTN.addEventListener("input", btnController);
 
 function initializeQuiz() {
   score = 0;
@@ -256,29 +248,19 @@ function initializeQuiz() {
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
 }
 
-function disableBTN() {
-  submitBTN.disabled =
-    document.querySelector('input[name="userChoice"]:checked') === null
-      ? true
-      : false;
+function btnController() {
+  submitBTN.disabled = true;
 }
 function quizController() {
-  initializeQuiz(); //reset quiz, pick random 10 questions. Change it later to call this through a button click. Will do this when I store quiz progress in local storage
-  let quizIndex = questions[count];
-  question = quiz[quizIndex];
-  renderQuestion();
-  disableBTN(); //enables button when user makes a selection
-  radioEvents(); //add event listener to all radio buttons to enable button when user selects an option
+  initializeQuiz();
+  btnController();
+  let current = questions[count];
+  renderQuestion(current);
 }
-function radioEvents() {
-  radios = document.querySelectorAll('input[name="userChoice"]');
-  for (let i = 0; i < radios.length; i++) {
-    radios[i].addEventListener("click", disableBTN);
-  }
-}
-function renderQuestion() {
-  quizTitle.textContent = question.title;
-  const choices = shuffle(question.choices);
+
+function renderQuestion(index) {
+  quizTitle.textContent = quiz[index].question;
+  const choices = shuffle(quiz[index].choices);
   quizUL.innerHTML = "";
   for (let i = 0; i < choices.length; i++) {
     quizUL.innerHTML += `<li>
@@ -288,36 +270,6 @@ function renderQuestion() {
   }
 }
 
-function markAnswer() {
-  let userAnswer = document.querySelector('input[name="userChoice"]:checked')
-    .value;
-  const user = { right: "" };
-
-  // if (userAnswer === question.answer) {
-  // } else {
-  //   console.log("dan dan dan");
-  // }
-  user.right = userAnswer === question.answer ? true : false;
-  let userRadio; //the radio button user clicks
-  let correctRadio;
-
-  radios.forEach((element) => {
-    element.disabled = true;
-    element.parentElement.style.pointerEvents = "none";
-    if (element.value.match(userAnswer)) userRadio = element.id;
-  });
-
-  radios.forEach((element) => {
-    if (element.value.match(question.answer)) correctRadio = element.id;
-  });
-
-  if (user.right) {
-    document.getElementById(userRadio).parentElement.classList.add("right");
-  } else {
-    document.getElementById(userRadio).parentElement.classList.add("wrong");
-    document.getElementById(correctRadio).parentElement.classList.add("right");
-  }
-}
 function randomizeQuestion(numberOfQuestion, quizLength) {
   //numberOfQuestion is the number of questions to generate
   let list = [];
