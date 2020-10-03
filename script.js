@@ -184,11 +184,11 @@ const quiz = [
   },
   {
     title:
-      "The device used to protect buildings from ligtening strikes is called",
+      "The device used to protect buildings from lightening strikes is called",
     choices: [
       "lightening protector",
       "lightening sphere",
-      "ligtening conductor",
+      "lightening conductor",
       "lightening rod",
     ],
     answer: "lightening rod",
@@ -248,12 +248,15 @@ let userChoice = document.querySelector('input[name="userChoice"]');
 let radios;
 let question;
 let scoreBoardElem = document.getElementById("score");
-
-submitBTN.addEventListener("click", markAnswer);
+let quizInprogress = false;
 
 function initializeQuiz() {
+  //reset quiz, pick random 10 questions.
+  //Change it later to call this through a button click.
+  //Will do this when I store quiz progress in local storage
   score = 0;
   count = 0;
+  quizInprogress = true;
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
 }
 
@@ -264,13 +267,12 @@ function disableBTN() {
       : false;
 }
 function quizController() {
-  initializeQuiz(); //reset quiz, pick random 10 questions. Change it later to call this through a button click. Will do this when I store quiz progress in local storage
+  submitBTN.onclick = markAnswer;
+  if (!quizInprogress) initializeQuiz(); //only call if quiz is not in progress
   let quizIndex = questions[count];
   question = quiz[quizIndex];
   renderQuestion();
-  quizIndex++;
-  // disableBTN(); //enables button when user makes a selection
-  // radioEvents(); //add event listener to all radio buttons to enable button when user selects an option
+  count += 1;
 }
 function radioEvents() {
   radios = document.querySelectorAll('input[name="userChoice"]');
@@ -308,6 +310,8 @@ function markAnswer() {
   submitBTN.textContent = "Next Question";
   // submitBTN.onclick = renderQuestion;
   submitBTN.onclick = quizController;
+
+  console.log("markanswer");
 } //markAnswer end
 
 function disableInput(user, userAnswer) {
