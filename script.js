@@ -212,7 +212,7 @@ const quiz = [
   {
     title: "The best place to hide a tree is in the",
     choices: ["village", "barracks", "bush", "forest"],
-    answer: "forrest",
+    answer: "forest",
   },
   {
     title: "Phone numbers is to phones as ______ is to internet",
@@ -230,7 +230,7 @@ const quiz = [
     answer: "carbon",
   },
 ];
-/* todo: 
+/* todo:
 once I implement local storage, next:
    change questions array to hold 10 questions instead of just the quiz indexes.
    randomize the choices (possible) answer on question array creation too
@@ -247,6 +247,7 @@ let submitBTN = document.getElementById("submit");
 let userChoice = document.querySelector('input[name="userChoice"]');
 let radios;
 let question;
+let scoreBoardElem = document.getElementById("score");
 
 submitBTN.addEventListener("click", markAnswer);
 
@@ -267,44 +268,56 @@ function quizController() {
   let quizIndex = questions[count];
   question = quiz[quizIndex];
   renderQuestion();
-  disableBTN(); //enables button when user makes a selection
-  radioEvents(); //add event listener to all radio buttons to enable button when user selects an option
+  quizIndex++;
+  // disableBTN(); //enables button when user makes a selection
+  // radioEvents(); //add event listener to all radio buttons to enable button when user selects an option
 }
 function radioEvents() {
   radios = document.querySelectorAll('input[name="userChoice"]');
   for (let i = 0; i < radios.length; i++) {
     radios[i].addEventListener("click", disableBTN);
   }
-}
+} // radioEvents end
+
 function renderQuestion() {
   quizTitle.textContent = question.title;
   const choices = shuffle(question.choices);
   quizUL.innerHTML = "";
   for (let i = 0; i < choices.length; i++) {
+    //create list items, radio and label from current question
     quizUL.innerHTML += `<li>
     <input type="radio" name="userChoice" id="${i}" value="${choices[i]}" />
     <label class="label" for="${i}">${capitalize(choices[i])}</label>
   </li>`;
   }
-}
+  submitBTN.textContent = "Submit";
+  disableBTN(); //enables button when user makes a selection
+  radioEvents(); //add event listener to all radio buttons to enable button when user selects an option
+} //renderQuestion end
 
 function markAnswer() {
   let userAnswer = document.querySelector('input[name="userChoice"]:checked')
     .value;
   const user = { right: "" };
 
-  // if (userAnswer === question.answer) {
-  // } else {
-  //   console.log("dan dan dan");
-  // }
   user.right = userAnswer === question.answer ? true : false;
+  score = user.right ? (score += 1) : score;
+  disableInput(user, userAnswer);
+
+  scoreBoardElem.textContent = score;
+  submitBTN.textContent = "Next Question";
+  // submitBTN.onclick = renderQuestion;
+  submitBTN.onclick = quizController;
+} //markAnswer end
+
+function disableInput(user, userAnswer) {
   let userRadio; //the radio button user clicks
-  let correctRadio;
+  let correctRadio; //radio button with the right answer;
 
   radios.forEach((element) => {
-    element.disabled = true;
-    element.parentElement.style.pointerEvents = "none";
-    if (element.value.match(userAnswer)) userRadio = element.id;
+    element.disabled = true; //disable all radio buttons after user submits
+    element.parentElement.style.pointerEvents = "none"; //remove hand cursor from each list item
+    if (element.value.match(userAnswer)) userRadio = element.id; //get the id of the radio button the user selected
   });
 
   radios.forEach((element) => {
@@ -317,7 +330,8 @@ function markAnswer() {
     document.getElementById(userRadio).parentElement.classList.add("wrong");
     document.getElementById(correctRadio).parentElement.classList.add("right");
   }
-}
+} //disableInput end
+
 function randomizeQuestion(numberOfQuestion, quizLength) {
   //numberOfQuestion is the number of questions to generate
   let list = [];
@@ -328,7 +342,7 @@ function randomizeQuestion(numberOfQuestion, quizLength) {
     if (!list.includes(num)) list.push(num);
   }
   return list;
-}
+} //randomizeQuestion end
 
 //For shuffling the quiz answers
 const shuffle = (arr) => arr.sort(() => 0.5 - Math.random());
