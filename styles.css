@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background-color: #a5b6e5; */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  width: 400px;
+  min-height: 300px;
+  /* border: 1px solid black; */
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  color: rgb(100, 100, 100);
+}
+
+.quiz-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  text-align: center;
+  border-bottom: 1px solid rgba(101, 115, 255, 0.3);
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.quiz-container ul {
+  padding-top: 10px;
+}
+.quiz-container li {
+  padding: 10px 0;
+}
+.label {
+  font-size: 5px;
+  padding-left: 10px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.quiz-container li {
+  list-style-type: none;
+}
+
+.quiz-body {
+  height: 80%;
+  padding: 20px 50px;
+  bottom: 0;
+}
+
+.myButton {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, rgb(101, 115, 255) 5%, #0688fa 100%);
+  background-color: rgb(101, 115, 255);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.2em;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  transition: ease 300ms;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, rgb(101, 115, 255) 100%);
+  background-color: #0688fa;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
