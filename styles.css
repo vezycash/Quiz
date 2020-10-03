@@ -65,6 +65,10 @@ body {
   padding-left: 10px;
   margin: 5px;
 }
+.quiz-container li input[type="radio"] {
+  cursor: pointer;
+}
+
 .label {
   font-size: 1em;
   padding-left: 10px;
@@ -126,6 +130,9 @@ button:disabled,
 button[disabled] {
   pointer-events: none;
   opacity: 0.7;
+  background: unset;
+  box-shadow: unset;
+  background-color: rgb(126, 149, 250);
 }
 
 .score {
@@ -147,4 +154,12 @@ button[disabled] {
     2px 2px 0 rgb(-31, 99, 213), 3px 3px 0 rgb(-44, 86, 200),
     4px 4px 0 rgb(-56, 74, 188), 5px 5px 4px rgba(0, 0, 0, 0.6),
     5px 5px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+#gameOn {
+  display: none;
+}
+
+#gameLoader {
+  display: flex;
 }

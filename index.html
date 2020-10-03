@@ -8,8 +8,9 @@
   </head>
 
   <body>
-    <div class="score">Score - <span id="score">0</span></div>
-    <div class="quiz-container">
+    <div id="gameOn" class="quiz-container">
+      <div class="score">Score - <span id="score">0</span></div>
+
       <div class="quiz-body">
         <div class="quiz-question">
           <h2 id="quizTitle">
@@ -41,6 +42,13 @@
           Submit
         </button>
       </div>
+    </div>
+    <div id="gameLoader" class="quiz-container">
+      <div class="quiz-question">
+        <h2>Welcome to Quizapp</h2>
+      </div>
+      <div>Your score is:<span>0</span></div>
+      <button class="myButton" onclick="initializeQuiz()">Start game</button>
     </div>
   </body>
   <script src="script.js"></script>

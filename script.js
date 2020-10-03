@@ -47,7 +47,8 @@ const quiz = [
     answer: "milk",
   },
   {
-    title: "One of the following is not among the consumed vegetable oils.",
+    title:
+      "One of the following is not among the world's most consumed vegetable oils.",
     choices: ["corn oil", "palm oil", "sunflower oil", "cashew oil"],
     answer: "cashew oil",
   },
@@ -131,7 +132,7 @@ const quiz = [
     answer: "roughage",
   },
   {
-    title: "What part of cows is Pomo is made from:",
+    title: "Pomo is made from cow ______:",
     choices: ["intestine", "oesophagus", "skin", "stomach"],
     answer: "skin",
   },
@@ -148,7 +149,7 @@ const quiz = [
   },
   {
     title: "The most used operating system is:",
-    choices: ["windows", "ios", "mac book", "android"],
+    choices: ["windows", "IOS", "mac book", "android"],
     answer: "android",
   },
   {
@@ -168,7 +169,8 @@ const quiz = [
     answer: "eat excreta",
   },
   {
-    title: "A file has the name sumer.mp4 - the .MP4 part is called",
+    title:
+      "A video file on your computer is named SUMMER.MP4 - the .MP4 part is called",
     choices: ["file clip", "file partition", "file extension", "file name"],
     answer: "file extension",
   },
@@ -200,7 +202,7 @@ const quiz = [
   },
   {
     title: "The part of the computer that can be touched is called",
-    choices: ["hardware", "people ware", "middle ware", "software"],
+    choices: ["hardware", "peopleware", "middleware", "software"],
     answer: "hardware",
   },
   {
@@ -225,9 +227,397 @@ const quiz = [
     answer: "water",
   },
   {
-    title: "The basis of life is",
+    title: "The primary component of all known life on Earth is",
     choices: ["water", "carbon", "spirit", "energy"],
     answer: "carbon",
+  },
+  {
+    title: "What would you get if you mixed color yellow with blue?",
+    choices: ["brown", "purple", "green", "orange"],
+    answer: "green",
+  },
+  {
+    title: "What does sweating do?",
+    choices: [
+      "cools the body",
+      "heats the body",
+      "removes dead cells",
+      "repairs damaged cells",
+    ],
+    answer: "cools the body",
+  },
+  {
+    title: "Haemoglbin is responsible for?",
+    choices: [
+      "maintaining the heart",
+      "red color of the blood",
+      "figting diseases",
+      "boosting immune system",
+    ],
+    answer: "red color of the blood",
+  },
+  {
+    title: "Digestion starts from the?",
+    choices: ["mouth", "stomach", "small intestine", "oesophagus"],
+    answer: "mouth",
+  },
+  {
+    title: "Heating and keeping food in air tight containers is called?",
+    choices: ["canning", "food preservation", "warming", "cooking"],
+    answer: "canning",
+  },
+  {
+    title: "In the Bible, whose vineyard did Ahab covet?",
+    choices: ["Nabal", "Naboth", "Naphtali", "Nathan"],
+    answer: "Naboth",
+  },
+  {
+    title: "Which Book in the Bible was written by a Doctor?",
+    choices: ["acts", "john", "mark", "luke"],
+    answer: "luke",
+  },
+  {
+    title: "75% of 1000 is?",
+    choices: ["750", "350", "900", "650"],
+    answer: "750",
+  },
+  {
+    title: "A Triangle with 3 unequal sides is called?",
+    choices: [
+      "Scalene triangle",
+      "equilateral triangle",
+      "obtuse triangle",
+      "Isosceles triangle",
+    ],
+    answer: "Scalene triangle",
+  },
+  {
+    title: "North Africa is mostly covered by a desert called?",
+    choices: [
+      "Sahara Desert",
+      "Arabian Desert",
+      "Kalahari Desert",
+      "Gobi Desert",
+    ],
+    answer: "Sahara Desert",
+  },
+  {
+    title: "Which Ocean exist between Australia and Africa?",
+    choices: ["Indian Ocean", "Atlantic ocean", "pacific ocean", "Artic ocean"],
+    answer: "Indian Ocean",
+  },
+  {
+    title: "The Earth consists of approximately 71%",
+    choices: ["forest", "land", "gas", "water"],
+    answer: "water",
+  },
+  {
+    title: "Which fish has no brain or heart?",
+    choices: ["cat fish", "octopus", "gold fish", "jelly fish"],
+    answer: "jelly fish",
+  },
+  {
+    title: " The largest continent by area and population is?",
+    choices: ["europe", "africa", "north america", "asia"],
+    answer: "asia",
+  },
+  {
+    title: "How many years in 1 century?",
+    choices: ["100 years", "10 years", "1000 years", "1 million years"],
+    answer: "100 years",
+  },
+  {
+    title: "A Herbivore is",
+    choices: [
+      "small plant",
+      "an animal that eats only plants",
+      "a medicinal herb",
+      "a chemical used to kill insects",
+    ],
+    answer: "an animal that eats only plants",
+  },
+  {
+    title: "Amphibians live",
+    choices: [
+      "on land only",
+      "on both land and water",
+      "on water only",
+      "in hot deserts",
+    ],
+    answer: "on both land and water",
+  },
+  {
+    title: "Circle contains how many degrees",
+    choices: ["360 degrees", "180 degrees", "90 degrees", "270 degrees"],
+    answer: "360 degrees",
+  },
+  {
+    title: "Which continent has the most countries?",
+    choices: ["africa", "asia", "europe", "north america"],
+    answer: "africa",
+  },
+  {
+    title: "Earth atmosphere mostly contain which gas?",
+    choices: ["nitrogen", "oxygen", "hydrogen", "carbon dioxide"],
+    answer: "nitrogen",
+  },
+  {
+    title: "Pour acid on Litmus paper and it turns to color?",
+    choices: ["blue green", "yellow", "blue", "red"],
+    answer: "red",
+  },
+  {
+    title: "The month of May has how many days?",
+    choices: ["31", "30", "28", "29"],
+    answer: "31",
+  },
+  {
+    title: "Hexagon has how many sides?",
+    choices: ["six", "four", "five", "seven"],
+    answer: "six",
+  },
+  {
+    title: "The hottest planet in the solar system is?",
+    choices: ["venus", "mars", "jupiter", "saturn"],
+    answer: "venus",
+  },
+  {
+    title: "Smallest Ocean in the world?",
+    choices: ["artic ocean", "indian ocean", "pacific ocean", "atlantic ocean"],
+    answer: "artic ocean",
+  },
+  {
+    title: "The SUN is a?",
+    choices: ["star", "planet", "globe", "universe"],
+    answer: "star",
+  },
+  {
+    title: "Which planet has the highest number of moons?",
+    choices: ["uranus", "venus", "saturn", "jupiter"],
+    answer: "jupiter",
+  },
+  {
+    title: "Europe and Africa separated by which sea?",
+    choices: ["meditarrian ", "red", "atlantic", "pacific"],
+    answer: "meditarrian ",
+  },
+  {
+    title: "Planet closest to the sun?",
+    choices: ["mecury", "pluto", "mars", "venus"],
+    answer: "mecury",
+  },
+  {
+    title: "What is the smallest prime number?",
+    choices: ["2", "1", "3", "0"],
+    answer: "2",
+  },
+  {
+    title: " What is the largest ocean on Earth?",
+    choices: ["pacific", "atlantic", "indian", "artic"],
+    answer: "pacific",
+  },
+  {
+    title: "What is the smallest prime number?",
+    choices: ["2", "1", "3", "0"],
+    answer: "2",
+  },
+  {
+    title: "The basic unit of all living things is?",
+    choices: ["cell", "atom", "molecule", "water"],
+    answer: "cell",
+  },
+  {
+    title: "A 90 degree angle is called",
+    choices: ["right angle", "obtuse angle", "acute angle", "straight angle"],
+    answer: "right angle",
+  },
+  {
+    title: "An angle less than 90 degrees is called?",
+    choices: ["right angle", "obtuse angle", "acute angle", "straight angle"],
+    answer: "acute angle",
+  },
+  {
+    title:
+      "An angle bigger than 90 degrees but less than 180 degrees is called?",
+    choices: ["right angle", "obtuse angle", "acute angle", "straight angle"],
+    answer: "obtuse angle",
+  },
+  {
+    title: "An angle between 180 and 360 degrees is called?",
+    choices: ["reflex angle", "obtuse angle", "acute angle", "straight angle"],
+    answer: "reflex angle",
+  },
+  {
+    title: "When the sum of two angles is 90 degrees. They are called",
+    choices: [
+      "complementary angles",
+      "supplementary angles",
+      "acute angles",
+      "adjacent angles",
+    ],
+    answer: "complementary angles",
+  },
+  {
+    title: "When the sum of two angles is 180 degrees. They are called",
+    choices: [
+      "complementary angles",
+      "supplementary angles",
+      "acute angles",
+      "adjacent angles",
+    ],
+    answer: "supplementary angles",
+  },
+  {
+    title: "A 180 degree angle is called?",
+    choices: [
+      "straight angle",
+      "obtuse angle",
+      "acute angle",
+      "adjacent angle",
+    ],
+    answer: "straight angle",
+  },
+  {
+    title:
+      "A phrase or word that means exactly or nearly the same as another word or phrase is a",
+    choices: ["synonym", "irony", "antonym", "adjective"],
+    answer: "synonmy",
+  },
+  {
+    title: "Which part of the flower is used to make honey?",
+    choices: ["nectar", "pollen grain", "carpel", "petal", "stamen"],
+    answer: "nectar",
+  },
+  {
+    title: "In which direction does fan rotate?",
+    choices: ["clockwise", "anti-clockwise", "does not matter"],
+    answer: "does not matter",
+  },
+  {
+    title: "Which is the longest river in the world?",
+    choices: ["nile", "amazon", "niger", "congo", "Mississippi"],
+    answer: "nile",
+  },
+  {
+    title: "Which is the biggest island in the world?",
+    choices: ["greenland", "New Guinea", "Borneo", "Madagascar", "Sumatera"],
+    answer: "greenland",
+  },
+  {
+    title: "What's the largest sea in the world?",
+    choices: [
+      "Philippine Sea",
+      "Red sea",
+      "Coral Sea",
+      "Arabian Sea",
+      "South China Sea",
+    ],
+    answer: "Philippine Sea",
+  },
+  {
+    title: "df",
+    choices: [
+      "Philippine Sea",
+      "Red sea",
+      "Coral Sea",
+      "Arabian Sea",
+      "South China Sea",
+    ],
+    answer: "Philippine Sea",
+  },
+  {
+    title: "How many bones does the Human body have.",
+    choices: ["206", "216", "207", "217", "214"],
+    answer: "206",
+  },
+  {
+    title: "A fortnight has _______ days",
+    choices: ["14", "7", "2", "28", "10"],
+    answer: "14",
+  },
+  {
+    title: "What was the first animal to go into orbit?",
+    choices: ["a guinea pig", "a lab rat", "a monkey", "a dog"],
+    answer: "a dog",
+  },
+  {
+    title: "What’s the name of the toy cowboy in Toy Story?",
+    choices: ["woody", "buzz lightyear", "rex", "andy"],
+    answer: "woody",
+  },
+  {
+    title: "Which two countries share the longest border",
+    choices: [
+      "united states and canada",
+      "united states and mexico",
+      "china and india",
+      "china and indonesia",
+    ],
+    answer: "united states and canada",
+  },
+  {
+    title: "The device used to measure the speed of wind is called?",
+    choices: ["anemometer", "wind vane", "wind guage", "speedometer"],
+    answer: "anemometer",
+  },
+  {
+    title: "How many teeth are there in the adult’s mouth?",
+    choices: ["32", "36", "35", "34"],
+    answer: "32",
+  },
+  {
+    title: "Which country invented PAPER?",
+    choices: ["china", "united states", "england", "egypt"],
+    answer: "china",
+  },
+  {
+    title: "Which blood type is known as the universal donor?",
+    choices: ["o-negative", "o-positive", "AB+", "AB-"],
+    answer: "o-negative",
+  },
+  {
+    title: "Which blood type is known as the universal recipient?",
+    choices: ["o-negative", "o-positive", "AB+", "AB-"],
+    answer: "AB+",
+  },
+  {
+    title: "Which country owns every Pandas in the world?",
+    choices: ["china", "united states", "england", "egypt", "india"],
+    answer: "china",
+  },
+  {
+    title: "Which color is the best absorbent?",
+    choices: ["black", "white", "purple", "green", "blue"],
+    answer: "black",
+  },
+  {
+    title: "Who invented telescope?",
+    choices: ["Galileo", "thomas edison", "bill gates", "dr. M.R. Shinka"],
+    answer: "Galileo",
+  },
+  {
+    title: "Which is the deadliest snake of the world?",
+    choices: ["black mamba", "python", "boa constrictor", "king cobra"],
+    answer: "black mamba",
+  },
+  {
+    title: "Which country has the largest area of Land?",
+    choices: ["china", "russia", "united states", "india"],
+    answer: "russia",
+  },
+  {
+    title: "Which mosquito bites?",
+    choices: [
+      "female mosquitoes only",
+      "male mosquitoes only",
+      "both male and female",
+    ],
+    answer: "female mosquitoes only",
+  },
+  {
+    title: "Which country has the largest are of Land?",
+    choices: ["china", "russia", "united states", "india"],
+    answer: "russia",
   },
 ];
 /* todo:
@@ -249,6 +639,8 @@ let radios;
 let question;
 let scoreBoardElem = document.getElementById("score");
 let quizInprogress = false;
+let loadingScreen = document.getElementById("gameLoader");
+let gameScreen = document.getElementById("gameOn");
 
 function initializeQuiz() {
   //reset quiz, pick random 10 questions.
@@ -258,28 +650,33 @@ function initializeQuiz() {
   count = 0;
   quizInprogress = true;
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
-}
+  loadingScreen.style.display = "none";
+  gameScreen.style.display = "flex";
+  quizController();
+} // end initializeQuiz
 
 function disableBTN() {
   submitBTN.disabled =
     document.querySelector('input[name="userChoice"]:checked') === null
       ? true
       : false;
-}
+} //end disableBTN
+
 function quizController() {
   submitBTN.onclick = markAnswer;
-  if (!quizInprogress) initializeQuiz(); //only call if quiz is not in progress
+  // if (!quizInprogress) initializeQuiz(); //only call if quiz is not in progress
   let quizIndex = questions[count];
   question = quiz[quizIndex];
   renderQuestion();
   count += 1;
-}
+} //end quizController
+
 function radioEvents() {
   radios = document.querySelectorAll('input[name="userChoice"]');
   for (let i = 0; i < radios.length; i++) {
     radios[i].addEventListener("click", disableBTN);
   }
-} // radioEvents end
+} // end radioEvents
 
 function renderQuestion() {
   quizTitle.textContent = question.title;
@@ -308,10 +705,7 @@ function markAnswer() {
 
   scoreBoardElem.textContent = score;
   submitBTN.textContent = "Next Question";
-  // submitBTN.onclick = renderQuestion;
   submitBTN.onclick = quizController;
-
-  console.log("markanswer");
 } //markAnswer end
 
 function disableInput(user, userAnswer) {
@@ -353,5 +747,3 @@ const shuffle = (arr) => arr.sort(() => 0.5 - Math.random());
 
 //Capitalize each quiz answer
 const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
-
-quizController();
