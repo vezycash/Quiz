@@ -480,7 +480,7 @@ const quiz = [
     title:
       "A phrase or word that means exactly or nearly the same as another word or phrase is a",
     choices: ["synonym", "irony", "antonym", "adjective"],
-    answer: "synonmy",
+    answer: "synonym",
   },
   {
     title: "Which part of the flower is used to make honey?",
@@ -635,14 +635,13 @@ let score = 0;
 let questions;
 const numberOfQuestion = 10;
 let count;
+let radios;
+let question;
 let quizUL = document.getElementById("quiz");
 let quizTitle = document.getElementById("quizTitle");
 let submitBTN = document.getElementById("submit");
 let userChoice = document.querySelector('input[name="userChoice"]');
-let radios;
-let question;
 let scoreBoardElem = document.getElementById("score");
-// let quizInprogress = false;
 let loadingScreen = document.getElementById("gameLoader");
 let gameScreen = document.getElementById("gameOn");
 
@@ -650,7 +649,6 @@ function initializeQuiz() {
   score = 0;
   count = 0;
   scoreBoardElem.textContent = "0";
-  // quizInprogress = true;
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
   loadingScreen.style.display = "none";
   gameScreen.style.display = "flex";
@@ -668,10 +666,8 @@ function quizController() {
   submitBTN.onclick = markAnswer;
   let quizIndex = questions[count];
   question = quiz[quizIndex];
-  renderQuestion();
+  count >= numberOfQuestion ? gameOver() : renderQuestion();
   count += 1;
-  console.log(count);
-  if (count >= numberOfQuestion) gameOver();
 } //end quizController
 
 function radioEvents() {
