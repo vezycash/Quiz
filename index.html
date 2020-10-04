@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>:) Quiz app</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="gameOn" class="quiz-container">
+    <div class="score">Score - <span id="score">0</span></div>
+
+    <div class="quiz-body">
+      <div class="quiz-question">
+        <h2 id="quizTitle">
+          What do plants need to survive in sahara desert?
+        </h2>
+      </div>
+
+      <ul id="quiz">
+        <li>
+          <input type="radio" name="choice" id="a" />
+          <label class="label" for="a">A</label>
+        </li>
+        <li>
+          <input type="radio" name="choice" id="b" />
+          <label class="label" for="b">B</label>
+        </li>
+        <li>
+          <input type="radio" name="choice" id="c" />
+          <label class="label" for="c">C</label>
+        </li>
+        <li>
+          <input type="radio" name="choice" id="d" />
+          <label class="label" for="d">D</label>
+        </li>
+      </ul>
+    </div>
+    <div class="">
+      <button id="submit" class="myButton" type="button" disabled>
+        Submit
+      </button>
+    </div>
+  </div>
+  <div id="gameLoader" class="quiz-container">
+    <div class="">
+      <h2 id="loaderTitle" class="css-3d-text">Welcome to Quizapp</h2>
+    </div>
+    <div id="messageEl"></div>
+    <button class="myButton" onclick="initializeQuiz()">
+      Click Here to Start game
+    </button>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

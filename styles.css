@@ -1,0 +1,205 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background-color: #a5b6e5; */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  width: 400px;
+  min-height: 300px;
+  /* border: 1px solid black; */
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  color: rgb(100, 100, 100);
+}
+
+.quiz-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  text-align: center;
+  border-bottom: 1px solid rgba(101, 115, 255, 0.3);
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.quiz-container ul {
+  padding-top: 10px;
+}
+.quiz-container li {
+  padding: 10px 0;
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 5px;
+}
+.quiz-container li input[type="radio"] {
+  cursor: pointer;
+}
+
+.label {
+  font-size: 1em;
+  padding-left: 10px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.right {
+  background-color: rgba(0, 128, 0, 0.411);
+  border: 1px solid rgba(0, 128, 0, 0.411);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: rgba(231, 25, 25, 0.411);
+  border: 1px solid rgba(231, 25, 25, 0.411);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.quiz-body {
+  height: 80%;
+  padding: 20px 50px;
+  bottom: 0;
+}
+
+.myButton {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, rgb(101, 115, 255) 5%, #0688fa 100%);
+  background-color: rgb(101, 115, 255);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.2em;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  transition: ease 300ms;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, rgb(101, 115, 255) 100%);
+  background-color: #0688fa;
+  font-size: 1.4em;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+button:disabled,
+button[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+  background: unset;
+  box-shadow: unset;
+  background-color: rgb(126, 149, 250);
+}
+
+.score {
+  position: absolute;
+  font-size: 2.2em;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-stretch: ultra-expanded;
+  top: 30px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+  /* border: 1px solid black; */
+  box-shadow: 0px 3px 11px 0px rgba(50, 50, 50, 0.75);
+  border-radius: 20px;
+  text-shadow: 0px 0px 0 rgb(-6, 124, 238), 1px 1px 0 rgb(-19, 111, 225),
+    2px 2px 0 rgb(-31, 99, 213), 3px 3px 0 rgb(-44, 86, 200),
+    4px 4px 0 rgb(-56, 74, 188), 5px 5px 4px rgba(0, 0, 0, 0.6),
+    5px 5px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.css-3d-text {
+  font-size: 55px;
+  color: #0772ff;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 0px 0px 0 rgb(-51, 56, 197), 1px 1px 0 rgb(-59, 48, 189),
+    2px 2px 0 rgb(-66, 41, 182), 3px 3px 0 rgb(-73, 34, 175),
+    4px 4px 0 rgb(-80, 27, 168), 5px 5px 0 rgb(-88, 19, 160),
+    6px 6px 0 rgb(-95, 12, 153), 7px 7px 0 rgb(-102, 5, 146),
+    8px 8px 0 rgb(-110, -3, 138), 9px 9px 0 rgb(-117, -10, 131),
+    10px 10px 0 rgb(-124, -17, 124), 11px 11px 10px rgba(0, 0, 0, 0.6),
+    11px 11px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 40px;
+  /* animation: infinite-shake 2s ease-in-out alternate infinite; */
+
+  animation-name: stretch;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+#messageEl {
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 1.5em;
+}
+
+#gameOn {
+  display: none;
+}
+
+#gameLoader {
+  display: flex;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
