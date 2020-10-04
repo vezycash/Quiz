@@ -748,16 +748,9 @@ function gameOver() {
   //todo: either i create a separate game over screen or mod the loading screen. Eitherway, gots to download stuff and sleep. Continue tomorrow.
   gameScreen.style.display = "none";
   showGameOverScreen(score);
-}
+} //gameOver end
 
 function showGameOverScreen(score) {
-  loadingScreen.style.display = "flex";
-  let messageEl = document.getElementById("messageEl");
-  let loaderTitle = document.getElementById("loaderTitle");
-  let win = score > 5 ? true : false;
-  let scoreColor = win ? "blue" : "red";
-  const randRemark = (arr) => arr[~~(Math.random() * arr.length)];
-  loaderTitle.innerText = "Game over";
   const loseRemark = [
     "You suck",
     "Unbelievable",
@@ -787,9 +780,20 @@ function showGameOverScreen(score) {
     "Good, Play again",
     "Great",
   ];
-  let scoreMsg = `<p>You scored ${score}</p>`;
+  loadingScreen.style.display = "flex";
+  let messageEl = document.getElementById("messageEl");
+  let loaderTitle = document.getElementById("loaderTitle");
+  let win = score > 5 ? true : false;
+  let scoreColor = win ? "blue" : "red";
+  let textShadow = win
+    ? `1px 1px 2px ${scoreColor}`
+    : `1px 1px 2px ${scoreColor}`;
+  const randRemark = (arr) => arr[~~(Math.random() * arr.length)];
+  loaderTitle.innerText = "Game over";
+  let scoreMsg = `<p>You scored ${score} / ${numberOfQuestion}</p>`;
   let remark = win ? randRemark(winRemark) : randRemark(loseRemark);
-
+  remark = `<p style="color: ${scoreColor}">${remark}</p>`;
+  messageEl.style.textShadow = textShadow;
   messageEl.innerHTML = scoreMsg + remark;
 }
 //For shuffling the quiz answers

@@ -182,8 +182,9 @@ button[disabled] {
 
 #messageEl {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 2em;
   line-height: 1.5em;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 #gameOn {
