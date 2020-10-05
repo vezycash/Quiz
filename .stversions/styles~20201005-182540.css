@@ -9,7 +9,6 @@
 }
 
 body {
-  user-select: none;
   /* background-color: #a5b6e5; */
   background-image: linear-gradient(
     to bottom,

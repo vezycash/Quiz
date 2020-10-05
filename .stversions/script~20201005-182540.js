@@ -69,7 +69,7 @@ const quiz = [
   },
   {
     title: "A shape with 5 sides is called?",
-    choices: ["octagon", "cuboid", "hexagon", "pentagon"],
+    choices: ["pentagon", "cuboid", "hexagon", "pentagon"],
     answer: "pentagon",
   },
   {
@@ -84,21 +84,9 @@ const quiz = [
   },
   {
     title:
-      "A malicious software that spreads through a network by itself is caled a?",
+      "A malicious code that spreads through a network by itself is caled a?",
     choices: ["virus", "root kit", "trojan", "worm"],
     answer: "worm",
-  },
-  {
-    title:
-      "A malicious software that remains even after formatting your operating system is caled a?",
-    choices: ["virus", "root kit", "trojan", "worm"],
-    answer: "root kit",
-  },
-  {
-    title:
-      "A malicious software that pretends to do one thing while doing another is caled a?",
-    choices: ["virus", "root kit", "trojan", "worm"],
-    answer: "trojan",
   },
   {
     title:
@@ -388,11 +376,6 @@ const quiz = [
     answer: "red",
   },
   {
-    title: "Pour base on Litmus paper and it turns to color?",
-    choices: ["blue green", "yellow", "blue", "red"],
-    answer: "blue",
-  },
-  {
     title: "The month of May has how many days?",
     choices: ["31", "30", "28", "29"],
     answer: "31",
@@ -587,7 +570,7 @@ const quiz = [
     answer: "anemometer",
   },
   {
-    title: "How many teeth are there in an adult’s mouth?",
+    title: "How many teeth are there in the adult’s mouth?",
     choices: ["32", "36", "35", "34"],
     answer: "32",
   },
@@ -650,239 +633,7 @@ const quiz = [
     ],
     answer: "more than 500 languages",
   },
-  {
-    title: "What is the largest organ INSIDE the body?",
-    choices: ["liver", "heart", "brain", "intestine"],
-    answer: "liver",
-  },
-  {
-    title: "Which animal's fingerprint looks exactly like human fingerprints?",
-    choices: ["koala", "chimpanzee", "gorilla", "panda"],
-    answer: "koala",
-  },
-  {
-    title: "A group of lions is called a?",
-    choices: ["pride", "pack", "den", "hunt"],
-    answer: "pride",
-  },
-  {
-    title: "How many bones does a shark have?",
-    choices: ["0 bones", "509 bones", "311 bones", "947 bones"],
-    answer: "0 bones",
-  },
-  {
-    title: "The first country to use paper money?",
-    choices: ["china", "united states", "egypt", "israel"],
-    answer: "china",
-  },
-  {
-    title: "_______ transforms into a butterfly.",
-    choices: ["caterpillar", "pupa", "egg", "larvae"],
-    answer: "caterpillar",
-  },
-  {
-    title: "The animal known as the desert animal is?",
-    choices: ["desert rattle snake", "horse", "camel", "donkey"],
-    answer: "camel",
-  },
-  {
-    title: "The common name of water is?",
-    choices: ["H2O", "HCL", "HO", "OH-"],
-    answer: "H2O",
-  },
-  {
-    title: "If you travel into space, you would grow:",
-    choices: ["shorter", "taller", "stop growing", "none of the above"],
-    answer: "taller",
-  },
-  {
-    title: "A bamboo is a",
-    choices: ["tree", "shrub", "grass", "fern"],
-    answer: "grass",
-  },
-  {
-    title: "Which of the following statements is true:",
-    choices: [
-      "lightening's 3 times hotter than the sun",
-      "Sun's' 3 times hotter than lightening",
-      "They have the same temperature",
-      "lightening is half the sun's temperature",
-    ],
-    answer: "lightening's 3 times hotter than the sun",
-  },
-  {
-    title: "Which country's known for Apartheid:",
-    choices: ["south africa", "united states", "russia", "egypt"],
-    answer: "south africa",
-  },
-  {
-    title: "How many lungs do humans have?",
-    choices: ["2", "1", "3", "none"],
-    answer: "2",
-  },
-  {
-    title: "All are names of mountains except:",
-    choices: [
-      "mount fuji",
-      "K2",
-      "Kirkjufell",
-      "mount cook",
-      "none of the above",
-    ],
-    answer: "none of the above",
-  },
-  {
-    title: "A baby goat is called:",
-    choices: ["a kid", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a kid",
-  },
-  {
-    title: "A baby elephant is called:",
-    choices: ["a kid", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a calf",
-  },
-  {
-    title: "A baby deer is called:",
-    choices: ["a kid", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a fawn",
-  },
-  {
-    title: "A baby wolf is called:",
-    choices: ["a kid", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a pup",
-  },
-  {
-    title: "A baby bat is called:",
-    choices: ["a kid", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a pup",
-  },
-  {
-    title: "A baby horse is called:",
-    choices: ["a kid", "a calf", "a cub", "a foal", "a fawn"],
-    answer: "a foal",
-  },
-  {
-    title: "A baby bear is called:",
-    choices: ["a cub", "a calf", "a pup", "a foal", "a fawn"],
-    answer: "a cub",
-  },
-  {
-    title: "A baby lion is called:",
-    choices: ["a cub", "a calf", "a pup", "a foal", "a kitten"],
-    answer: "a cub",
-  },
-  {
-    title: "A baby kangaroo is called:",
-    choices: ["a cub", "a joey", "a pup", "a foal", "a fawn"],
-    answer: "a joey",
-  },
-  {
-    title: "A baby whale is called:",
-    choices: ["a cub", "fingerling", "a pup", "a foal", "a calf"],
-    answer: "a calf",
-  },
-  {
-    title: "Bats are blind:",
-    choices: ["only some species", "true", "false"],
-    answer: "false",
-  },
-  {
-    title: "Dogs are:",
-    choices: ["omnivores", "herbivores", "carnivores"],
-    answer: "omnivores",
-  },
-  {
-    title: "A female deer is called:",
-    choices: ["a doe", "a mare", "a steer", "a deeress"],
-    answer: "a doe",
-  },
-  {
-    title: "A female fox is called:",
-    choices: ["a vixen", "a mare", "a steer", "a deeress"],
-    answer: "a vixen",
-  },
-  {
-    title: "A female goat is called a doe or:",
-    choices: ["a vixen", "a mare", "a steer", "a nanny"],
-    answer: "a nanny",
-  },
-  {
-    title: "A female donkey is called:",
-    choices: ["a vixen", "a steer", "a nanny", "a jenny"],
-    answer: "a jenny",
-  },
-  {
-    title: "A male donkey is called:",
-    choices: ["an ass", "a steed", "a he-donkey", "a gulap"],
-    answer: "an ass",
-  },
-  {
-    title: "A male donkey is called:",
-    choices: ["a jack", "a steed", "a he-donkey", "a gulap"],
-    answer: "a jack",
-  },
-  {
-    title: "The process through which the skin of snakes fall off is called:",
-    choices: ["molting", "dolting", "dotting", "moulting"],
-    answer: "moulting",
-  },
-  {
-    title: "Humans shed their skin:",
-    choices: ["false", "true"],
-    answer: "true",
-  },
-  {
-    title: "A person who studies rocks is:",
-    choices: [
-      "a geologist",
-      "an oncologist",
-      "a meteorologist",
-      "an osteologist",
-    ],
-    answer: "a geologist",
-  },
-  {
-    title: "A person who studies bones is:",
-    choices: [
-      "a geologist",
-      "an oncologist",
-      "a meteorologist",
-      "an osteologist",
-    ],
-    answer: "a osteologist",
-  },
-  {
-    title: "A special doctor who specializes in tumors is:",
-    choices: [
-      "a geologist",
-      "an oncologist",
-      "a meteorologist",
-      "an osteologist",
-    ],
-    answer: "an oncologist",
-  },
-  {
-    title: "A neurologist handles:",
-    choices: [
-      "mental patients",
-      "brain surgery",
-      "treatment of nerves",
-      "all of the above",
-    ],
-    answer: "brain surgery",
-  },
-  {
-    title: "The biggest part of the human brain is called:",
-    choices: [
-      "The cerebrum",
-      "The cerebellum",
-      "The brain stem",
-      "The occipital lobe",
-    ],
-    answer: "The cerebrum",
-  },
 ];
-
 /* todo:
 once I implement local storage, next:
    change questions array to hold 10 questions instead of just the quiz indexes.
