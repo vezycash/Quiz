@@ -914,11 +914,6 @@ function initializeQuiz() {
   count = 0;
   scoreBoardElem.textContent = "0";
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
-  //there is a bug with a question with the choices as AB+. So I'm rigging this to always show those questions as first and second question till I figure this shit out.
-  //figured it out. It's affecting only the one with the answer as AB+
-  //i assumed it's because I'm using digits as IDs. But that's not it.
-  //bug fixed - the str.match comparison was treating the string "AB+" as a regex
-  // questions[0] = 100;
 
   loadingScreen.style.display = "none";
   gameScreen.style.display = "flex";
