@@ -691,9 +691,14 @@ const quiz = [
     answer: "H2O",
   },
   {
-    title: "If you travel into space, you would grow:",
-    choices: ["shorter", "taller", "stop growing", "none of the above"],
-    answer: "taller",
+    title: "If you travel into space, you would:",
+    choices: [
+      "grow shorter",
+      "grow taller",
+      "stop growing",
+      "none of the above",
+    ],
+    answer: "grow taller",
   },
   {
     title: "A bamboo is a",
@@ -909,6 +914,12 @@ function initializeQuiz() {
   count = 0;
   scoreBoardElem.textContent = "0";
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
+  //there is a bug with a question with the choices as AB+. So I'm rigging this to always show those questions as first and second question till I figure this shit out.
+  //figured it out. It's affecting only the one with the answer as AB+
+  //i assumed it's because I'm using digits as IDs. But that's not it.
+  //bug fixed - the str.match comparison was treating the string "AB+" as a regex
+  // questions[0] = 100;
+
   loadingScreen.style.display = "none";
   gameScreen.style.display = "flex";
   quizController();
@@ -943,8 +954,8 @@ function renderQuestion() {
   for (let i = 0; i < choices.length; i++) {
     //create list items, radio and label from current question
     quizUL.innerHTML += `<li>
-    <input type="radio" name="userChoice" id="${i}" value="${choices[i]}" />
-    <label class="label" for="${i}">${capitalize(choices[i])}</label>
+    <input type="radio" name="userChoice" id="a${i}b" value="${choices[i]}" />
+    <label class="label" for="a${i}b">${capitalize(choices[i])}</label>
   </li>`;
   }
   submitBTN.textContent = "Submit";
@@ -955,10 +966,12 @@ function renderQuestion() {
 function markAnswer() {
   let userAnswer = document.querySelector('input[name="userChoice"]:checked')
     .value;
-  const user = { right: "" };
 
-  user.right = userAnswer === question.answer ? true : false;
+  const user = { right: "" };
+  const lower = (str) => str.toLowerCase();
+  user.right = lower(userAnswer) === lower(question.answer) ? true : false;
   score = user.right ? (score += 1) : score;
+
   disableInput(user, userAnswer);
 
   scoreBoardElem.textContent = score;
@@ -973,15 +986,13 @@ function disableInput(user, userAnswer) {
   radios.forEach((element) => {
     element.disabled = true; //disable all radio buttons after user submits
     element.parentElement.style.pointerEvents = "none"; //remove hand cursor from each list item
-    if (element.value.match(userAnswer)) userRadio = element.id; //get the id of the radio button the user selected
-  });
-
-  radios.forEach((element) => {
-    if (element.value.match(question.answer)) correctRadio = element.id;
+    userRadio = element.value === userAnswer ? element.id : userRadio; //get the id of the radio button the user selected
+    correctRadio =
+      element.value === question.answer ? element.id : correctRadio;
   });
 
   if (user.right) {
-    document.getElementById(userRadio).parentElement.classList.add("right");
+    document.getElementById(correctRadio).parentElement.classList.add("right");
   } else {
     document.getElementById(userRadio).parentElement.classList.add("wrong");
     document.getElementById(correctRadio).parentElement.classList.add("right");
