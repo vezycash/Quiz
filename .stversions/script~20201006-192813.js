@@ -84,19 +84,19 @@ const quiz = [
   },
   {
     title:
-      "A malicious software that spreads through a network by itself is called a?",
+      "A malicious software that spreads through a network by itself is caled a?",
     choices: ["virus", "root kit", "trojan", "worm"],
     answer: "worm",
   },
   {
     title:
-      "A malicious software that remains even after formatting your operating system is called a?",
+      "A malicious software that remains even after formatting your operating system is caled a?",
     choices: ["virus", "root kit", "trojan", "worm"],
     answer: "root kit",
   },
   {
     title:
-      "A malicious software that pretends to do one thing while doing another is called a?",
+      "A malicious software that pretends to do one thing while doing another is caled a?",
     choices: ["virus", "root kit", "trojan", "worm"],
     answer: "trojan",
   },
@@ -854,7 +854,7 @@ const quiz = [
       "a meteorologist",
       "an osteologist",
     ],
-    answer: "an osteologist",
+    answer: "a osteologist",
   },
   {
     title: "A special doctor who specializes in tumors is:",
@@ -914,7 +914,7 @@ function initializeQuiz() {
   count = 0;
   scoreBoardElem.textContent = "0";
   questions = randomizeQuestion(numberOfQuestion, quiz.length);
-  // questions[0] = 0;  //for debugging problems with specific questions
+
   loadingScreen.style.display = "none";
   gameScreen.style.display = "flex";
   quizController();
@@ -931,7 +931,6 @@ function quizController() {
   submitBTN.onclick = markAnswer;
   let quizIndex = questions[count];
   question = quiz[quizIndex];
-
   count >= numberOfQuestion ? gameOver() : renderQuestion();
   count += 1;
 } //end quizController
@@ -984,20 +983,14 @@ function disableInput(user, userAnswer) {
     element.parentElement.style.pointerEvents = "none"; //remove hand cursor from each list item
     userRadio = element.value === userAnswer ? element.id : userRadio; //get the id of the radio button the user selected
     correctRadio =
-      element.value === question.answer ? element.id : correctRadio; //get the id of the radio button with the right answer
+      element.value === question.answer ? element.id : correctRadio;
   });
-  correctRadio = document.getElementById(correctRadio);
-  userRadio = document.getElementById(userRadio);
-  if (correctRadio && userRadio) {
-    if (user.right) {
-      // document.getElementById(correctRadio).parentElement.classList.add("right");
-      correctRadio.parentElement.classList.add("right");
-    } else {
-      userRadio.parentElement.classList.add("wrong");
-      correctRadio.parentElement.classList.add("right");
-      // document.getElementById(userRadio).parentElement.classList.add("wrong");
-      // document.getElementById(correctRadio).parentElement.classList.add("right");
-    }
+
+  if (user.right) {
+    document.getElementById(correctRadio).parentElement.classList.add("right");
+  } else {
+    document.getElementById(userRadio).parentElement.classList.add("wrong");
+    document.getElementById(correctRadio).parentElement.classList.add("right");
   }
 } //disableInput end
 
@@ -1051,7 +1044,6 @@ function showGameOverScreen(score) {
   loadingScreen.style.display = "flex";
   let messageEl = document.getElementById("messageEl");
   let loaderTitle = document.getElementById("loaderTitle");
-  let loaderBTN = document.getElementById("loaderBTN");
   let win = score > 5 ? true : false;
   let scoreColor = win ? "blue" : "red";
   let textShadow = win
@@ -1064,7 +1056,6 @@ function showGameOverScreen(score) {
   remark = `<p style="color: ${scoreColor}">${remark}</p>`;
   messageEl.style.textShadow = textShadow;
   messageEl.innerHTML = scoreMsg + remark;
-  loaderBTN.textContent = "Play another game";
 }
 //For shuffling the quiz answers
 const shuffle = (arr) => arr.sort(() => 0.5 - Math.random());
