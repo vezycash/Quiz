@@ -1,0 +1,178 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  color: rgb(86, 83, 133);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(182, 216, 245),
+    rgba(171, 202, 244, 0.96),
+    rgba(161, 189, 243, 0.93),
+    rgba(150, 175, 242, 0.89),
+    rgba(139, 161, 241, 0.85),
+    rgba(129, 147, 240, 0.82),
+    rgba(118, 134, 240, 0.78),
+    rgba(108, 120, 239, 0.75),
+    rgba(97, 106, 238, 0.71),
+    rgba(86, 92, 237, 0.67),
+    rgba(76, 79, 236, 0.64),
+    rgba(65, 65, 235, 0.6)
+  );
+}
+
+form {
+  border: 1px solid black;
+  width: 500px;
+  min-height: 500px;
+  padding: 40px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  margin: auto;
+  /* background: rgba(255, 255, 255, 0.8); */
+  background-color: #dee6f8;
+  border-radius: 10px;
+  position: relative;
+}
+
+#questionDIV {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+#questionDIV input[type="text"] {
+  width: 100%;
+}
+
+#questionDIV h2 {
+  padding-bottom: 10px;
+  display: block;
+}
+
+#answerLabel {
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.option {
+  /* border: 1px solid black; */
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+  align-items: center;
+  padding: 5px 0;
+}
+.removeOption {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+::placeholder {
+  color: rgba(126, 125, 136, 0.7);
+  opacity: 1; /* Firefox */
+}
+
+input {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(86, 83, 133);
+  font-size: large;
+}
+input[type="text"] {
+  padding: 10px 20px;
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px rgba(0, 0, 0, 0.06) solid;
+}
+
+input:hover {
+  color: rgb(131, 128, 175);
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgb(86, 83, 133, 0.1);
+}
+input:focus {
+  color: rgb(86, 83, 133);
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+label.radio {
+  /* margin-left: 10px; */
+  padding: 10px 10px 10px 20px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+label span {
+  padding-right: 10px;
+  min-width: 30px;
+}
+/* label span {
+  display: block;
+} */
+
+input:focus {
+  background-color: rgba(72, 83, 182, 0.06);
+}
+
+.controlBtnDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  bottom: 0;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: absolute;
+  width: 400px;
+}
+
+.controlBtnDiv button {
+  padding: 10px 20px;
+  background-color: rgba(65, 65, 235, 0.3);
+  color: white;
+  outline: none;
+  border: 1px rgba(65, 65, 235, 0.5) solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.outlineBTN {
+  color: rgba(65, 65, 235, 0.5);
+  background-color: transparent;
+  border: 1px rgba(65, 65, 235, 0.5) solid;
+}
+
+.outlineBTN:hover {
+  color: white;
+  background-color: rgba(65, 65, 235, 0.5);
+}
+button:hover {
+  background-color: white;
+  color: rgba(65, 65, 235, 0.5);
+  transition: ease-in-out 150ms;
+}
+
+/* div > #display { */
+#display {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 700px;
+  min-height: 300px;
+  border: 5px solid black;
+}

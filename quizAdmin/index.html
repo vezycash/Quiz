@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./styles.css" />
+
+  <body>
+    <form action="#" id="quizForm" autocomplete="off">
+      <div class="container">
+        <div id="questionDIV">
+          <label>
+            <h2>Question</h2>
+            <input
+              type="text"
+              placeholder="Enter question"
+              id="question"
+              required
+              autofocus
+              tabindex="1"
+            />
+          </label>
+        </div>
+
+        <!-- <div id="answerLabel">
+          <p>Select Correct Answer</p>
+        </div> -->
+        <div id="answersDIV">
+          <label class="option">
+            <span>A</span>
+            <input
+              type="text"
+              id="a"
+              placeholder="Enter answer"
+              value="some"
+              required
+              tabindex="2"
+            />
+            <label class="radio">
+              <input type="radio" name="answer" id="" value="a" />
+            </label>
+            <!-- <button type="button" class="removeOption">Del</button> -->
+          </label>
+          <label class="option">
+            <span>B</span>
+            <input
+              type="text"
+              id="b"
+              placeholder="Enter answer"
+              value="have"
+              required
+              tabindex="2"
+            />
+            <label class="radio">
+              <input type="radio" name="answer" id="" value="b" required />
+            </label>
+          </label>
+          <label class="option">
+            <span>C</span>
+            <input
+              type="text"
+              id="c"
+              placeholder="Enter answer"
+              value="food"
+              required
+              tabindex="2"
+            />
+            <label class="radio">
+              <input type="radio" name="answer" id="" value="c" />
+            </label>
+          </label>
+          <label class="option">
+            <span>D</span>
+            <input
+              type="text"
+              id="d"
+              placeholder="Enter answer"
+              value="but can't eat"
+              required
+              tabindex="2"
+            />
+            <label class="radio">
+              <input type="radio" name="answer" id="" value="d" />
+            </label>
+          </label>
+        </div>
+      </div>
+      <div class="controlBtnDiv">
+        <button class="outlineBTN">Add Another Answer</button>
+        <button>Submit</button>
+      </div>
+    </form>
+    <div>
+      <textarea id="display">
+        This is where the array will shoow up
+      </textarea>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

@@ -113,7 +113,7 @@ const quiz = [
   },
   {
     title:
-      "____ are materials that won't allow both heat and/or electricity to flow through readily",
+      "____ are materials that don't allow heat or electricity to flow through readily",
     choices: ["insulators", "conductors", "diodes", "resistors"],
     answer: "insulators",
   },
@@ -276,11 +276,6 @@ const quiz = [
     title: "Heating and keeping food in air tight containers is called?",
     choices: ["canning", "food preservation", "warming", "cooking"],
     answer: "canning",
-  },
-  {
-    title: "One of the following is not a food preservation method:",
-    choices: ["packaging", "sun drying", "pickling", "salting"],
-    answer: "packaging",
   },
   {
     title: "In the Bible, whose vineyard did Ahab covet?",
@@ -1022,101 +1017,14 @@ const quiz = [
     choices: ["Keratin", "Protein", "Enamel", "Chloroplast", "DNA"],
     answer: "Keratin",
   },
-  {
-    title: "Your fingernails are made from?",
-    choices: ["Keratin", "Colagen", "Enamel", "Calcium"],
-    answer: "Keratin",
-  },
-  {
-    title:
-      "______ are materials that don't allow electricity to flow through readily",
-    choices: ["resistors", "conductors", "silicon", "capacitors"],
-    answer: "resistors",
-  },
-  {
-    title: "In cold climates sheep",
-    choices: [
-      "hair won't stop growing",
-      "hair will stop growing at 2.5 inches",
-      "will grow to double their height",
-      "none of the above",
-    ],
-    answer: "hair won't stop growing",
-  },
-  {
-    title: "The feet of sheep, horses and cows are called?",
-    choices: ["hooves", "paws", "legs", "thumpers"],
-    answer: "hooves",
-  },
-  {
-    title: "Margarine is made from:",
-    choices: ["vegetable oil", "milk", "animal fat", "all of the above"],
-    answer: "vegetable oil",
-  },
-  {
-    title: "Kalahari desert is located in:",
-    choices: [
-      "southern africa",
-      "northern africa",
-      "western africa",
-      "eastern africa",
-    ],
-    answer: "southern africa",
-  },
-  {
-    title: "_______ is store of energy in the body:",
-    choices: ["fat", "carbohydrate", "protein", "vitamin"],
-    answer: "fat",
-  },
-  {
-    title: "On a hot day, it's best to wear",
-    choices: [
-      "dark colored clothes",
-      "light colored clothes",
-      "nylon clothes",
-      "thick clothes",
-    ],
-    answer: "dark colored clothes",
-  },
-  {
-    title: "Egg shells are _____ of the total egg weight",
-    choices: ["12%", "30%", "7%", "12%"],
-    answer: "12%",
-  },
-  {
-    title: "The following are byproduts of crude oil except",
-    choices: ["aromatic oil", "engine oil", "plastic", "asphalt"],
-    answer: "aromatic oil",
-  },
-  {
-    title: "The following are byproduts of palm oil except",
-    choices: ["chocolate", "glycerol", "bioplastic", "asparagus"],
-    answer: "aromatic oil",
-  },
-  {
-    title: "One byte equals",
-    choices: ["8 bits", "4 bits", "18 bits", "14 bits"],
-    answer: "8 bits",
-  },
-  {
-    title: "The following are methods of protecting wood from termite",
-    choices: [
-      "soak it in distilled water",
-      "painting it with olive oil",
-      "paint it with vinegar",
-      "paint it with paint",
-    ],
-    answer: "soak it in distilled water",
-  },
 ];
 
 /* todo:
-
-Will not implement local storage
- Ability to put many choices in the quiz.choices array. It'll randomly pick 3. Randmly patch in the correct answer.
-
+once I implement local storage, next:
    change questions array to hold 10 questions instead of just the quiz indexes.
    randomize the choices (possible) answer on question array creation too
+
+bad news. I fucked up with git. Was already done with the game. Now I got do it again.
 */
 let score = 0;
 let questions;
