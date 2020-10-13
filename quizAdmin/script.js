@@ -1,7 +1,7 @@
 //Remove when development complete
 //helps with the weird situation where vs code forces a refresh because of changes in quizData on form submission.
 
-// window.onbeforeunload = (e) => e.preventDefault();
+window.onbeforeunload = (e) => e.preventDefault();
 
 //remove
 
@@ -15,26 +15,17 @@ quizForm.addEventListener("submit", (e) => {
 
 let question = document.getElementById("question");
 let answersDIV = document.getElementById("answersDIV");
+let addBTN = document.getElementById("addBTN");
+let answerList = document.getElementById("answerList");
 
-let choices = [];
-let answer;
-let answerRadio = quizForm.querySelectorAll("input[name=answer]");
-let choiceInputs = answersDIV.querySelectorAll('input[type="text"]');
-let display = document.getElementById("display");
-// noOfChoices.forEach(
-//   (i) =>
-//     `
-// <label class="option">
-// <span>${i}</span>
-// <input type="text" placeholder="Enter answer" required tabindex="2" id="${i}"/>
-// <label class="radio">
-//   <input type="radio" name="answer" id="" value="${i}" />
-// </label>
-// </label>
-// `
-// );
+let idCount = 1; //for generating dynamic ID when adding new answer options
+addBTN.addEventListener("click", addOption);
 
 function handleForm() {
+  let choices = [];
+  let answer;
+  let answerRadio = quizForm.querySelectorAll("input[name=answer]");
+  let choiceInputs = answersDIV.querySelectorAll('input[type="text"]');
   choices = [];
 
   answerRadio.forEach(
@@ -79,4 +70,16 @@ async function submitQuiz(question) {
 }
 function removeOption(id) {
   document.getElementById(id).parentElement.remove();
+}
+
+function addOption() {
+  const option = document.createElement("label");
+  option.className = "option";
+  option.innerHTML = `<li></li>
+  <input type="text" placeholder="Enter answer" required tabindex="2" id="${idCount}"/>
+  <label class="radio">
+    <input type="radio" name="answer" id="" value="${idCount}" />
+  </label>`;
+  answerList.append(option);
+  idCount++;
 }

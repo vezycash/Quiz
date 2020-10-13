@@ -616,7 +616,7 @@
     },
     {
       "id": 84,
-      "title": "A phrase or word that means exactly or nearly the same as another word or phrase is a",
+      "title": "A word that means exactly or nearly the same as another word is a",
       "choices": ["synonym", "irony", "antonym", "adjective"],
       "answer": "synonym"
     },
@@ -1059,6 +1059,91 @@
         "The occipital lobe"
       ],
       "answer": "The cerebrum"
+    },
+    {
+      "id": 147,
+      "title": "Acid turns red litmus paper to?",
+      "choices": ["red", "blue", "purple"],
+      "answer": "none of the above"
+    },
+    {
+      "id": 148,
+      "title": "A base turns blue litmus paper to color?",
+      "choices": ["red", "blue", "purple"],
+      "answer": "none of the above"
+    },
+    {
+      "id": 149,
+      "title": "The largest organ of the body is?",
+      "choices": ["liver", "lung", "brain"],
+      "answer": "skin"
+    },
+    {
+      "id": 150,
+      "title": "The full meaning of STD is",
+      "choices": [
+        "Software transmitted diseases",
+        "sexually transmit diseases",
+        "software transmits diseases"
+      ],
+      "answer": "sexually transmitted diseases"
+    },
+    {
+      "id": 151,
+      "title": "A word opposite in meaning to another word is?",
+      "choices": ["synonmy", "simile", "metaphor"],
+      "answer": "antonym"
+    },
+    {
+      "id": 152,
+      "title": "The software used to visiting websites is called",
+      "choices": ["android", "operating system", "app"],
+      "answer": "web browser"
+    },
+    {
+      "id": 153,
+      "title": "The following are web browsers except",
+      "choices": ["chrome", "opera", "edge"],
+      "answer": "defender"
+    },
+    {
+      "id": 154,
+      "title": "The following are anti-viruses except",
+      "choices": ["Defender", "Avast", "Kaspersky"],
+      "answer": "Orion"
+    },
+    {
+      "id": 155,
+      "title": "Perennials are plants that live for?",
+      "choices": [
+        "less than 1 year",
+        "more than 1 year but less than 2 years",
+        "none of the above"
+      ],
+      "answer": "more than 2 years"
+    },
+    {
+      "id": 156,
+      "title": "The following are popular audio file extension except",
+      "choices": ["mp3", "m4a", "AAC"],
+      "answer": "mp4"
+    },
+    {
+      "id": 157,
+      "title": "The following are popular video file extensions except",
+      "choices": ["mp4", "avi", "mkv"],
+      "answer": "mp3"
+    },
+    {
+      "id": 158,
+      "title": "Any crop grown for sale rather than for personal food or livestock feed is called",
+      "choices": [
+        "tree crop",
+        "subsistence crops",
+        "ornamental crop",
+        "food crop"
+      ],
+      "answer": "cash crop"
     }
   ]
 }

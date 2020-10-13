@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Add New Question</title>
   </head>
   <link rel="stylesheet" href="./styles.css" />
 
@@ -28,64 +28,66 @@
           <p>Select Correct Answer</p>
         </div> -->
         <div id="answersDIV">
-          <label class="option">
-            <span>A</span>
-            <input
-              type="text"
-              id="a"
-              placeholder="Enter answer"
-              required
-              tabindex="2"
-            />
-            <label class="radio">
-              <input type="radio" name="answer" id="" value="a" />
+          <ol id="answerList">
+            <label class="option">
+              <li></li>
+              <input
+                type="text"
+                id="a"
+                placeholder="Enter answer"
+                required
+                tabindex="2"
+              />
+              <label class="radio">
+                <input type="radio" name="answer" id="" value="a" />
+              </label>
+              <!-- <button type="button" class="removeOption">Del</button> -->
             </label>
-            <!-- <button type="button" class="removeOption">Del</button> -->
-          </label>
-          <label class="option">
-            <span>B</span>
-            <input
-              type="text"
-              id="b"
-              placeholder="Enter answer"
-              required
-              tabindex="2"
-            />
-            <label class="radio">
-              <input type="radio" name="answer" id="" value="b" required />
+            <label class="option">
+              <li></li>
+              <input
+                type="text"
+                id="b"
+                placeholder="Enter answer"
+                required
+                tabindex="2"
+              />
+              <label class="radio">
+                <input type="radio" name="answer" id="" value="b" required />
+              </label>
             </label>
-          </label>
-          <label class="option">
-            <span>C</span>
-            <input
-              type="text"
-              id="c"
-              placeholder="Enter answer"
-              required
-              tabindex="2"
-            />
-            <label class="radio">
-              <input type="radio" name="answer" id="" value="c" />
+            <label class="option">
+              <li></li>
+              <input
+                type="text"
+                id="c"
+                placeholder="Enter answer"
+                required
+                tabindex="2"
+              />
+              <label class="radio">
+                <input type="radio" name="answer" id="" value="c" />
+              </label>
             </label>
-          </label>
-          <label class="option">
-            <span>D</span>
-            <input
-              type="text"
-              id="d"
-              placeholder="Enter answer"
-              required
-              tabindex="2"
-            />
-            <label class="radio">
-              <input type="radio" name="answer" id="" value="d" />
+            <label class="option">
+              <li></li>
+              <input
+                type="text"
+                id="d"
+                placeholder="Enter answer"
+                required
+                tabindex="2"
+              />
+              <label class="radio">
+                <input type="radio" name="answer" id="" value="d" />
+              </label>
             </label>
-          </label>
+          </ol>
         </div>
       </div>
+      <div class="submitError"></div>
       <div class="controlBtnDiv">
-        <a class="addBTN">Add Another Choice</a>
-
+        <a id="addBTN" class="addBTN">Add Another Choice</a>
         <button>Submit</button>
       </div>
     </form>
