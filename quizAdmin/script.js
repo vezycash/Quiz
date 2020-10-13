@@ -47,6 +47,7 @@ function handleForm() {
     answer,
   };
   submitQuiz(newQuestion);
+  resetForm();
 }
 
 async function submitQuiz(question) {
@@ -62,7 +63,6 @@ async function submitQuiz(question) {
   try {
     const response = await fetch(`http://localhost:3000/quiz/`, config);
     const data = await response.json();
-    quizForm.reset();
   } catch (e) {
     console.log(e);
     return e;
@@ -82,4 +82,14 @@ function addOption() {
   </label>`;
   answerList.append(option);
   idCount++;
+}
+
+function resetForm() {
+  answerList.innerHTML = "";
+
+  question.value = "";
+  for (i = 0; i < 4; i++) {
+    addOption();
+  }
+  quizForm.reset();
 }

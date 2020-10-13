@@ -14,55 +14,100 @@
     {
       "id": 1,
       "title": "The country with the largest population is",
-      "choices": ["India", "China", "America", "Brazil"],
+      "choices": [
+        "India",
+        "China",
+        "America",
+        "Brazil"
+      ],
       "answer": "China"
     },
     {
       "id": 2,
       "title": "One of the following organisms is very beneficial to the soil?",
-      "choices": ["Manure", "bettles", "nematodes", "earth worms"],
+      "choices": [
+        "Manure",
+        "bettles",
+        "nematodes",
+        "earth worms"
+      ],
       "answer": "earth worms"
     },
     {
       "id": 3,
       "title": "Which element has an atomic mass of 12",
-      "choices": ["hydrogen", "nitrogen", "carbon", "oxygen"],
+      "choices": [
+        "hydrogen",
+        "nitrogen",
+        "carbon",
+        "oxygen"
+      ],
       "answer": "carbon"
     },
     {
       "id": 4,
       "title": "On 27th May 1967, three of the following states were carved out from Northern Nigeria - EXCEPT.",
-      "choices": ["Kwara", "Kano", "kaduna", "kebbi"],
+      "choices": [
+        "Kwara",
+        "Kano",
+        "kaduna",
+        "kebbi"
+      ],
       "answer": "kebbi"
     },
     {
       "id": 5,
       "title": "The first state to be created from Eastern Region, Nigeria on 27 May, 1967  is?",
-      "choices": ["Rivers State", "Imo State", "Anambra State", "enugu state"],
+      "choices": [
+        "Rivers State",
+        "Imo State",
+        "Anambra State",
+        "enugu state"
+      ],
       "answer": "Rivers State"
     },
     {
       "id": 6,
       "title": "Which animal is a descendant of dinosaurs?",
-      "choices": ["chicken", "pig", "cat", "dog"],
+      "choices": [
+        "chicken",
+        "pig",
+        "cat",
+        "dog"
+      ],
       "answer": "chicken"
     },
     {
       "id": 7,
       "title": "Butter is made from:",
-      "choices": ["milk", "lard", "vegetable oil", "raspian fruit"],
+      "choices": [
+        "milk",
+        "lard",
+        "vegetable oil",
+        "raspian fruit"
+      ],
       "answer": "milk"
     },
     {
       "id": 8,
       "title": "One of the following is not among the world's most consumed vegetable oils.",
-      "choices": ["corn oil", "palm oil", "sunflower oil", "cashew oil"],
+      "choices": [
+        "corn oil",
+        "palm oil",
+        "sunflower oil",
+        "cashew oil"
+      ],
       "answer": "cashew oil"
     },
     {
       "id": 9,
       "title": "Egg shells are made from?",
-      "choices": ["calcium", "magnesium", "sodium", "phosphorus"],
+      "choices": [
+        "calcium",
+        "magnesium",
+        "sodium",
+        "phosphorus"
+      ],
       "answer": "calcium"
     },
     {
@@ -79,7 +124,12 @@
     {
       "id": 11,
       "title": "A shape with 5 sides is called?",
-      "choices": ["octagon", "cuboid", "hexagon", "pentagon"],
+      "choices": [
+        "octagon",
+        "cuboid",
+        "hexagon",
+        "pentagon"
+      ],
       "answer": "pentagon"
     },
     {
@@ -96,91 +146,166 @@
     {
       "id": 13,
       "title": "A malicious software that spreads through a network by itself is caled a?",
-      "choices": ["virus", "root kit", "trojan", "worm"],
+      "choices": [
+        "virus",
+        "root kit",
+        "trojan",
+        "worm"
+      ],
       "answer": "worm"
     },
     {
       "id": 14,
       "title": "A malicious software that remains even after formatting your operating system is caled a?",
-      "choices": ["virus", "root kit", "trojan", "worm"],
+      "choices": [
+        "virus",
+        "root kit",
+        "trojan",
+        "worm"
+      ],
       "answer": "root kit"
     },
     {
       "id": 15,
       "title": "A malicious software that pretends to do one thing while doing another is caled a?",
-      "choices": ["virus", "root kit", "trojan", "worm"],
+      "choices": [
+        "virus",
+        "root kit",
+        "trojan",
+        "worm"
+      ],
       "answer": "trojan"
     },
     {
       "id": 16,
       "title": "Ancient greeks defeated the city of ____  by giving them a giant wooden statue containing soldiers?",
-      "choices": ["sparta", "Patras", "rome", "trojan"],
+      "choices": [
+        "sparta",
+        "Patras",
+        "rome",
+        "trojan"
+      ],
       "answer": "trojan"
     },
     {
       "id": 17,
       "title": "One of the following is not a god of thunder.",
-      "choices": ["loki", "thor", "sango", "amadioha"],
+      "choices": [
+        "loki",
+        "thor",
+        "sango",
+        "amadioha"
+      ],
       "answer": "loki"
     },
     {
       "id": 18,
       "title": "____ are materials that don't allow heat or electricity to flow through readily",
-      "choices": ["insulators", "conductors", "diodes", "resistors"],
+      "choices": [
+        "insulators",
+        "conductors",
+        "diodes",
+        "resistors"
+      ],
       "answer": "insulators"
     },
     {
       "id": 19,
       "title": "One of the following is an excellent insulator",
-      "choices": ["gold", "copper", "pure water", "silver"],
+      "choices": [
+        "gold",
+        "copper",
+        "pure water",
+        "silver"
+      ],
       "answer": "pure water"
     },
     {
       "id": 20,
       "title": "One of the following cannot be used to store electricity",
-      "choices": ["capacitor", "battery", "cellulite", "salt"],
+      "choices": [
+        "capacitor",
+        "battery",
+        "cellulite",
+        "salt"
+      ],
       "answer": "cellulite"
     },
     {
       "id": 21,
       "title": "The following are input devices except:",
-      "choices": ["mouse", "touch screen", "speaker", "stylus"],
+      "choices": [
+        "mouse",
+        "touch screen",
+        "speaker",
+        "stylus"
+      ],
       "answer": "speaker"
     },
     {
       "id": 22,
       "title": "The following are top 10 programming languages except",
-      "choices": ["python", "java", "javascript", "scala"],
+      "choices": [
+        "python",
+        "java",
+        "javascript",
+        "scala"
+      ],
       "answer": "scala"
     },
     {
       "id": 23,
       "title": "Excreta of farm animals can be used to produce all of the following except",
-      "choices": ["methane", "electricity", "manure", "roughage"],
+      "choices": [
+        "methane",
+        "electricity",
+        "manure",
+        "roughage"
+      ],
       "answer": "roughage"
     },
     {
       "id": 24,
       "title": "Pomo is made from cow ______:",
-      "choices": ["intestine", "oesophagus", "skin", "stomach"],
+      "choices": [
+        "intestine",
+        "oesophagus",
+        "skin",
+        "stomach"
+      ],
       "answer": "skin"
     },
     {
       "id": 25,
       "title": "In sensible countries, the animal part used to make pomo, is used for:",
-      "choices": ["spare parts", "door", "beef", "leather"],
+      "choices": [
+        "spare parts",
+        "door",
+        "beef",
+        "leather"
+      ],
       "answer": "leather"
     },
     {
       "id": 26,
       "title": "The favorite food of king cobras is:",
-      "choices": ["fish", "mice", "snakes", "frogs"],
+      "choices": [
+        "fish",
+        "mice",
+        "snakes",
+        "frogs"
+      ],
       "answer": "snakes"
     },
     {
       "id": 27,
       "title": "The most used operating system is:",
-      "choices": ["windows", "IOS", "mac book", "android"],
+      "choices": [
+        "windows",
+        "IOS",
+        "mac book",
+        "android"
+      ],
       "answer": "android"
     },
     {
@@ -197,31 +322,56 @@
     {
       "id": 29,
       "title": "Before electricity, a popular food preseveration method was:",
-      "choices": ["grinding", "munching", "salting", "burying"],
+      "choices": [
+        "grinding",
+        "munching",
+        "salting",
+        "burying"
+      ],
       "answer": "salting"
     },
     {
       "id": 30,
       "title": "A goat that makes friends with a dog will learn to",
-      "choices": ["eat bone", "chase its tail", "bark", "eat excreta"],
+      "choices": [
+        "eat bone",
+        "chase its tail",
+        "bark",
+        "eat excreta"
+      ],
       "answer": "eat excreta"
     },
     {
       "id": 31,
       "title": "A video file on your computer is named SUMMER.MP4 - the .MP4 part is called",
-      "choices": ["file clip", "file partition", "file extension", "file name"],
+      "choices": [
+        "file clip",
+        "file partition",
+        "file extension",
+        "file name"
+      ],
       "answer": "file extension"
     },
     {
       "id": 32,
       "title": "_____ produce the oxygen we breathe",
-      "choices": ["animals", "micro organisms", "plants", "science"],
+      "choices": [
+        "animals",
+        "micro organisms",
+        "plants",
+        "science"
+      ],
       "answer": "plants"
     },
     {
       "id": 33,
       "title": "A device that produces electricity from moving air is called",
-      "choices": ["solar panel", "generator", "wind mill", "wind turbine"],
+      "choices": [
+        "solar panel",
+        "generator",
+        "wind mill",
+        "wind turbine"
+      ],
       "answer": "wind turbine"
     },
     {
@@ -238,49 +388,89 @@
     {
       "id": 35,
       "title": "Corn can be used to make the following except",
-      "choices": ["bitumen", "bio plastic", "flour", "ethanol"],
+      "choices": [
+        "bitumen",
+        "bio plastic",
+        "flour",
+        "ethanol"
+      ],
       "answer": "bitumen"
     },
     {
       "id": 36,
       "title": "The part of the computer that can be touched is called",
-      "choices": ["hardware", "peopleware", "middleware", "software"],
+      "choices": [
+        "hardware",
+        "peopleware",
+        "middleware",
+        "software"
+      ],
       "answer": "hardware"
     },
     {
       "id": 37,
       "title": "The data that the CPU needs for calculations is temporarily kept in the",
-      "choices": ["CPU", "hard disk", "RAM", "ROM"],
+      "choices": [
+        "CPU",
+        "hard disk",
+        "RAM",
+        "ROM"
+      ],
       "answer": "RAM"
     },
     {
       "id": 38,
       "title": "The best place to hide a tree is in the",
-      "choices": ["village", "barracks", "bush", "forest"],
+      "choices": [
+        "village",
+        "barracks",
+        "bush",
+        "forest"
+      ],
       "answer": "forest"
     },
     {
       "id": 39,
       "title": "Phone numbers is to phones as ______ is to internet",
-      "choices": ["url", "domain name", "website", "ip address"],
+      "choices": [
+        "url",
+        "domain name",
+        "website",
+        "ip address"
+      ],
       "answer": "ip address"
     },
     {
       "id": 40,
       "title": "Human beings are made of 70%",
-      "choices": ["meat", "bone", "water", "fat"],
+      "choices": [
+        "meat",
+        "bone",
+        "water",
+        "fat"
+      ],
       "answer": "water"
     },
     {
       "id": 41,
       "title": "The primary component of all known life on Earth is",
-      "choices": ["water", "carbon", "spirit", "energy"],
+      "choices": [
+        "water",
+        "carbon",
+        "spirit",
+        "energy"
+      ],
       "answer": "carbon"
     },
     {
       "id": 42,
       "title": "What would you get if you mixed color yellow with blue?",
-      "choices": ["brown", "purple", "green", "orange"],
+      "choices": [
+        "brown",
+        "purple",
+        "green",
+        "orange"
+      ],
       "answer": "green"
     },
     {
@@ -308,19 +498,34 @@
     {
       "id": 45,
       "title": "Digestion starts from the?",
-      "choices": ["mouth", "stomach", "small intestine", "oesophagus"],
+      "choices": [
+        "mouth",
+        "stomach",
+        "small intestine",
+        "oesophagus"
+      ],
       "answer": "mouth"
     },
     {
       "id": 46,
       "title": "Heating and keeping food in air tight containers is called?",
-      "choices": ["canning", "food preservation", "warming", "cooking"],
+      "choices": [
+        "canning",
+        "food preservation",
+        "warming",
+        "cooking"
+      ],
       "answer": "canning"
     },
     {
       "id": 47,
       "title": "In the Bible, whose vineyard did Ahab covet?",
-      "choices": ["Nabal", "Naboth", "Naphtali", "Nathan"],
+      "choices": [
+        "Nabal",
+        "Naboth",
+        "Naphtali",
+        "Nathan"
+      ],
       "answer": "Naboth"
     },
     {
@@ -337,7 +542,12 @@
     {
       "id": 49,
       "title": "75% of 1000 is?",
-      "choices": ["750", "350", "900", "650"],
+      "choices": [
+        "750",
+        "350",
+        "900",
+        "650"
+      ],
       "answer": "750"
     },
     {
@@ -376,25 +586,45 @@
     {
       "id": 53,
       "title": "The Earth consists of approximately 71%",
-      "choices": ["forest", "land", "gas", "water"],
+      "choices": [
+        "forest",
+        "land",
+        "gas",
+        "water"
+      ],
       "answer": "water"
     },
     {
       "id": 54,
       "title": "Which fish has no brain or heart?",
-      "choices": ["cat fish", "octopus", "gold fish", "jelly fish"],
+      "choices": [
+        "cat fish",
+        "octopus",
+        "gold fish",
+        "jelly fish"
+      ],
       "answer": "jelly fish"
     },
     {
       "id": 55,
       "title": " The largest continent by area and population is?",
-      "choices": ["europe", "africa", "north america", "asia"],
+      "choices": [
+        "europe",
+        "africa",
+        "north america",
+        "asia"
+      ],
       "answer": "asia"
     },
     {
       "id": 56,
       "title": "How many years in 1 century?",
-      "choices": ["100 years", "10 years", "1000 years", "1 million years"],
+      "choices": [
+        "100 years",
+        "10 years",
+        "1000 years",
+        "1 million years"
+      ],
       "answer": "100 years"
     },
     {
@@ -433,49 +663,89 @@
     {
       "id": 60,
       "title": "Circle contains how many degrees",
-      "choices": ["360 degrees", "180 degrees", "90 degrees", "270 degrees"],
+      "choices": [
+        "360 degrees",
+        "180 degrees",
+        "90 degrees",
+        "270 degrees"
+      ],
       "answer": "360 degrees"
     },
     {
       "id": 61,
       "title": "Which continent has the most countries?",
-      "choices": ["africa", "asia", "europe", "north america"],
+      "choices": [
+        "africa",
+        "asia",
+        "europe",
+        "north america"
+      ],
       "answer": "africa"
     },
     {
       "id": 62,
       "title": "Earth atmosphere mostly contain which gas?",
-      "choices": ["nitrogen", "oxygen", "hydrogen", "carbon dioxide"],
+      "choices": [
+        "nitrogen",
+        "oxygen",
+        "hydrogen",
+        "carbon dioxide"
+      ],
       "answer": "nitrogen"
     },
     {
       "id": 63,
       "title": "Pour acid on Litmus paper and it turns to color?",
-      "choices": ["blue green", "yellow", "blue", "red"],
+      "choices": [
+        "blue green",
+        "yellow",
+        "blue",
+        "red"
+      ],
       "answer": "red"
     },
     {
       "id": 64,
       "title": "Pour base on Litmus paper and it turns to color?",
-      "choices": ["blue green", "yellow", "blue", "red"],
+      "choices": [
+        "blue green",
+        "yellow",
+        "blue",
+        "red"
+      ],
       "answer": "blue"
     },
     {
       "id": 65,
       "title": "The month of May has how many days?",
-      "choices": ["31", "30", "28", "29"],
+      "choices": [
+        "31",
+        "30",
+        "28",
+        "29"
+      ],
       "answer": "31"
     },
     {
       "id": 66,
       "title": "Hexagon has how many sides?",
-      "choices": ["six", "four", "five", "seven"],
+      "choices": [
+        "six",
+        "four",
+        "five",
+        "seven"
+      ],
       "answer": "six"
     },
     {
       "id": 67,
       "title": "The hottest planet in the solar system is?",
-      "choices": ["venus", "mars", "jupiter", "saturn"],
+      "choices": [
+        "venus",
+        "mars",
+        "jupiter",
+        "saturn"
+      ],
       "answer": "venus"
     },
     {
@@ -492,49 +762,89 @@
     {
       "id": 69,
       "title": "The SUN is a?",
-      "choices": ["star", "planet", "globe", "universe"],
+      "choices": [
+        "star",
+        "planet",
+        "globe",
+        "universe"
+      ],
       "answer": "star"
     },
     {
       "id": 70,
       "title": "Which planet has the highest number of moons?",
-      "choices": ["uranus", "venus", "saturn", "jupiter"],
+      "choices": [
+        "uranus",
+        "venus",
+        "saturn",
+        "jupiter"
+      ],
       "answer": "jupiter"
     },
     {
       "id": 71,
       "title": "Europe and Africa separated by which sea?",
-      "choices": ["meditarrian ", "red", "atlantic", "pacific"],
+      "choices": [
+        "meditarrian ",
+        "red",
+        "atlantic",
+        "pacific"
+      ],
       "answer": "meditarrian "
     },
     {
       "id": 72,
       "title": "Planet closest to the sun?",
-      "choices": ["mecury", "pluto", "mars", "venus"],
+      "choices": [
+        "mecury",
+        "pluto",
+        "mars",
+        "venus"
+      ],
       "answer": "mecury"
     },
     {
       "id": 73,
       "title": "What is the smallest prime number?",
-      "choices": ["2", "1", "3", "0"],
+      "choices": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
       "answer": "2"
     },
     {
       "id": 74,
       "title": " What is the largest ocean on Earth?",
-      "choices": ["pacific", "atlantic", "indian", "artic"],
+      "choices": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "artic"
+      ],
       "answer": "pacific"
     },
     {
       "id": 75,
       "title": "What is the smallest prime number?",
-      "choices": ["2", "1", "3", "0"],
+      "choices": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
       "answer": "2"
     },
     {
       "id": 76,
       "title": "The basic unit of all living things is?",
-      "choices": ["cell", "atom", "molecule", "water"],
+      "choices": [
+        "cell",
+        "atom",
+        "molecule",
+        "water"
+      ],
       "answer": "cell"
     },
     {
@@ -617,25 +927,46 @@
     {
       "id": 84,
       "title": "A word that means exactly or nearly the same as another word is a",
-      "choices": ["synonym", "irony", "antonym", "adjective"],
+      "choices": [
+        "synonym",
+        "irony",
+        "antonym",
+        "adjective"
+      ],
       "answer": "synonym"
     },
     {
       "id": 85,
       "title": "Which part of the flower is used to make honey?",
-      "choices": ["nectar", "pollen grain", "carpel", "petal", "stamen"],
+      "choices": [
+        "nectar",
+        "pollen grain",
+        "carpel",
+        "petal",
+        "stamen"
+      ],
       "answer": "nectar"
     },
     {
       "id": 86,
       "title": "In which direction does fan rotate?",
-      "choices": ["clockwise", "anti-clockwise", "does not matter"],
+      "choices": [
+        "clockwise",
+        "anti-clockwise",
+        "does not matter"
+      ],
       "answer": "does not matter"
     },
     {
       "id": 87,
       "title": "Which is the longest river in the world?",
-      "choices": ["nile", "amazon", "niger", "congo", "Mississippi"],
+      "choices": [
+        "nile",
+        "amazon",
+        "niger",
+        "congo",
+        "Mississippi"
+      ],
       "answer": "nile"
     },
     {
@@ -677,25 +1008,47 @@
     {
       "id": 91,
       "title": "How many bones does the Human body have.",
-      "choices": ["206", "216", "207", "217", "214"],
+      "choices": [
+        "206",
+        "216",
+        "207",
+        "217",
+        "214"
+      ],
       "answer": "206"
     },
     {
       "id": 92,
       "title": "A fortnight has _______ days",
-      "choices": ["14", "7", "2", "28", "10"],
+      "choices": [
+        "14",
+        "7",
+        "2",
+        "28",
+        "10"
+      ],
       "answer": "14"
     },
     {
       "id": 93,
       "title": "What was the first animal to go into orbit?",
-      "choices": ["a guinea pig", "a lab rat", "a monkey", "a dog"],
+      "choices": [
+        "a guinea pig",
+        "a lab rat",
+        "a monkey",
+        "a dog"
+      ],
       "answer": "a dog"
     },
     {
       "id": 94,
       "title": "What’s the name of the toy cowboy in Toy Story?",
-      "choices": ["woody", "buzz lightyear", "rex", "andy"],
+      "choices": [
+        "woody",
+        "buzz lightyear",
+        "rex",
+        "andy"
+      ],
       "answer": "woody"
     },
     {
@@ -712,61 +1065,113 @@
     {
       "id": 96,
       "title": "The device used to measure the speed of wind is called?",
-      "choices": ["anemometer", "wind vane", "wind guage", "speedometer"],
+      "choices": [
+        "anemometer",
+        "wind vane",
+        "wind guage",
+        "speedometer"
+      ],
       "answer": "anemometer"
     },
     {
       "id": 97,
       "title": "How many teeth are there in an adult’s mouth?",
-      "choices": ["32", "36", "35", "34"],
+      "choices": [
+        "32",
+        "36",
+        "35",
+        "34"
+      ],
       "answer": "32"
     },
     {
       "id": 98,
       "title": "Which country invented PAPER?",
-      "choices": ["china", "united states", "england", "egypt"],
+      "choices": [
+        "china",
+        "united states",
+        "england",
+        "egypt"
+      ],
       "answer": "china"
     },
     {
       "id": 99,
       "title": "Which blood type is known as the universal donor?",
-      "choices": ["o-negative", "o-positive", "AB+", "AB-"],
+      "choices": [
+        "o-negative",
+        "o-positive",
+        "AB+",
+        "AB-"
+      ],
       "answer": "o-negative"
     },
     {
       "id": 100,
       "title": "Which blood type is known as the universal recipient?",
-      "choices": ["o-negative", "o-positive", "AB+", "AB-"],
+      "choices": [
+        "o-negative",
+        "o-positive",
+        "AB+",
+        "AB-"
+      ],
       "answer": "AB+"
     },
     {
       "id": 101,
       "title": "Which country owns every Pandas in the world?",
-      "choices": ["china", "united states", "england", "egypt", "india"],
+      "choices": [
+        "china",
+        "united states",
+        "england",
+        "egypt",
+        "india"
+      ],
       "answer": "china"
     },
     {
       "id": 102,
       "title": "Which color is the best absorbent?",
-      "choices": ["black", "white", "purple", "green", "blue"],
+      "choices": [
+        "black",
+        "white",
+        "purple",
+        "green",
+        "blue"
+      ],
       "answer": "black"
     },
     {
       "id": 103,
       "title": "Who invented telescope?",
-      "choices": ["Galileo", "thomas edison", "bill gates", "dr. M.R. Shinka"],
+      "choices": [
+        "Galileo",
+        "thomas edison",
+        "bill gates",
+        "dr. M.R. Shinka"
+      ],
       "answer": "Galileo"
     },
     {
       "id": 104,
       "title": "Which is the deadliest snake of the world?",
-      "choices": ["black mamba", "python", "boa constrictor", "king cobra"],
+      "choices": [
+        "black mamba",
+        "python",
+        "boa constrictor",
+        "king cobra"
+      ],
       "answer": "black mamba"
     },
     {
       "id": 105,
       "title": "Which country has the largest area of Land?",
-      "choices": ["china", "russia", "united states", "india"],
+      "choices": [
+        "china",
+        "russia",
+        "united states",
+        "india"
+      ],
       "answer": "russia"
     },
     {
@@ -793,61 +1198,111 @@
     {
       "id": 108,
       "title": "What is the largest organ INSIDE the body?",
-      "choices": ["liver", "heart", "brain", "intestine"],
+      "choices": [
+        "liver",
+        "heart",
+        "brain",
+        "intestine"
+      ],
       "answer": "liver"
     },
     {
       "id": 109,
       "title": "Which animal's fingerprint looks exactly like human fingerprints?",
-      "choices": ["koala", "chimpanzee", "gorilla", "panda"],
+      "choices": [
+        "koala",
+        "chimpanzee",
+        "gorilla",
+        "panda"
+      ],
       "answer": "koala"
     },
     {
       "id": 110,
       "title": "A group of lions is called a?",
-      "choices": ["pride", "pack", "den", "hunt"],
+      "choices": [
+        "pride",
+        "pack",
+        "den",
+        "hunt"
+      ],
       "answer": "pride"
     },
     {
       "id": 111,
       "title": "How many bones does a shark have?",
-      "choices": ["0 bones", "509 bones", "311 bones", "947 bones"],
+      "choices": [
+        "0 bones",
+        "509 bones",
+        "311 bones",
+        "947 bones"
+      ],
       "answer": "0 bones"
     },
     {
       "id": 112,
       "title": "The first country to use paper money?",
-      "choices": ["china", "united states", "egypt", "israel"],
+      "choices": [
+        "china",
+        "united states",
+        "egypt",
+        "israel"
+      ],
       "answer": "china"
     },
     {
       "id": 113,
       "title": "_______ transforms into a butterfly.",
-      "choices": ["caterpillar", "pupa", "egg", "larvae"],
+      "choices": [
+        "caterpillar",
+        "pupa",
+        "egg",
+        "larvae"
+      ],
       "answer": "caterpillar"
     },
     {
       "id": 114,
       "title": "The animal known as the desert animal is?",
-      "choices": ["desert rattle snake", "horse", "camel", "donkey"],
+      "choices": [
+        "desert rattle snake",
+        "horse",
+        "camel",
+        "donkey"
+      ],
       "answer": "camel"
     },
     {
       "id": 115,
       "title": "The common name of water is?",
-      "choices": ["H2O", "HCL", "HO", "OH-"],
+      "choices": [
+        "H2O",
+        "HCL",
+        "HO",
+        "OH-"
+      ],
       "answer": "H2O"
     },
     {
       "id": 116,
       "title": "If you travel into space, you would grow:",
-      "choices": ["shorter", "taller", "stop growing", "none of the above"],
+      "choices": [
+        "shorter",
+        "taller",
+        "stop growing",
+        "none of the above"
+      ],
       "answer": "taller"
     },
     {
       "id": 117,
       "title": "A bamboo is a",
-      "choices": ["tree", "shrub", "grass", "fern"],
+      "choices": [
+        "tree",
+        "shrub",
+        "grass",
+        "fern"
+      ],
       "answer": "grass"
     },
     {
@@ -864,13 +1319,23 @@
     {
       "id": 119,
       "title": "Which country's known for Aparthe",
-      "choices": ["south africa", "united states", "russia", "egypt"],
+      "choices": [
+        "south africa",
+        "united states",
+        "russia",
+        "egypt"
+      ],
       "answer": "south africa"
     },
     {
       "id": 120,
       "title": "How many lungs do humans have?",
-      "choices": ["2", "1", "3", "none"],
+      "choices": [
+        "2",
+        "1",
+        "3",
+        "none"
+      ],
       "answer": "2"
     },
     {
@@ -888,121 +1353,227 @@
     {
       "id": 122,
       "title": "A baby goat is called:",
-      "choices": ["a kid", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a kid"
     },
     {
       "id": 123,
       "title": "A baby elephant is called:",
-      "choices": ["a kid", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a calf"
     },
     {
       "id": 124,
       "title": "A baby deer is called:",
-      "choices": ["a kid", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a fawn"
     },
     {
       "id": 125,
       "title": "A baby wolf is called:",
-      "choices": ["a kid", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a pup"
     },
     {
       "id": 126,
       "title": "A baby bat is called:",
-      "choices": ["a kid", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a pup"
     },
     {
       "id": 127,
       "title": "A baby horse is called:",
-      "choices": ["a kid", "a calf", "a cub", "a foal", "a fawn"],
+      "choices": [
+        "a kid",
+        "a calf",
+        "a cub",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a foal"
     },
     {
       "id": 128,
       "title": "A baby bear is called:",
-      "choices": ["a cub", "a calf", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a cub",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a cub"
     },
     {
       "id": 129,
       "title": "A baby lion is called:",
-      "choices": ["a cub", "a calf", "a pup", "a foal", "a kitten"],
+      "choices": [
+        "a cub",
+        "a calf",
+        "a pup",
+        "a foal",
+        "a kitten"
+      ],
       "answer": "a cub"
     },
     {
       "id": 130,
       "title": "A baby kangaroo is called:",
-      "choices": ["a cub", "a joey", "a pup", "a foal", "a fawn"],
+      "choices": [
+        "a cub",
+        "a joey",
+        "a pup",
+        "a foal",
+        "a fawn"
+      ],
       "answer": "a joey"
     },
     {
       "id": 131,
       "title": "A baby whale is called:",
-      "choices": ["a cub", "fingerling", "a pup", "a foal", "a calf"],
+      "choices": [
+        "a cub",
+        "fingerling",
+        "a pup",
+        "a foal",
+        "a calf"
+      ],
       "answer": "a calf"
     },
     {
       "id": 132,
       "title": "Bats are blind:",
-      "choices": ["only some species", "true", "false"],
+      "choices": [
+        "only some species",
+        "true",
+        "false"
+      ],
       "answer": "false"
     },
     {
       "id": 133,
       "title": "Dogs are:",
-      "choices": ["omnivores", "herbivores", "carnivores"],
+      "choices": [
+        "omnivores",
+        "herbivores",
+        "carnivores"
+      ],
       "answer": "omnivores"
     },
     {
       "id": 134,
       "title": "A female deer is called:",
-      "choices": ["a doe", "a mare", "a steer", "a deeress"],
+      "choices": [
+        "a doe",
+        "a mare",
+        "a steer",
+        "a deeress"
+      ],
       "answer": "a doe"
     },
     {
       "id": 135,
       "title": "A female fox is called:",
-      "choices": ["a vixen", "a mare", "a steer", "a deeress"],
+      "choices": [
+        "a vixen",
+        "a mare",
+        "a steer",
+        "a deeress"
+      ],
       "answer": "a vixen"
     },
     {
       "id": 136,
       "title": "A female goat is called a doe or:",
-      "choices": ["a vixen", "a mare", "a steer", "a nanny"],
+      "choices": [
+        "a vixen",
+        "a mare",
+        "a steer",
+        "a nanny"
+      ],
       "answer": "a nanny"
     },
     {
       "id": 137,
       "title": "A female donkey is called:",
-      "choices": ["a vixen", "a steer", "a nanny", "a jenny"],
+      "choices": [
+        "a vixen",
+        "a steer",
+        "a nanny",
+        "a jenny"
+      ],
       "answer": "a jenny"
     },
     {
       "id": 138,
       "title": "A male donkey is called:",
-      "choices": ["an ass", "a steed", "a he-donkey", "a gulap"],
+      "choices": [
+        "an ass",
+        "a steed",
+        "a he-donkey",
+        "a gulap"
+      ],
       "answer": "an ass"
     },
     {
       "id": 139,
       "title": "A male donkey is called:",
-      "choices": ["a jack", "a steed", "a he-donkey", "a gulap"],
+      "choices": [
+        "a jack",
+        "a steed",
+        "a he-donkey",
+        "a gulap"
+      ],
       "answer": "a jack"
     },
     {
       "id": 140,
       "title": "The process through which the skin of snakes fall off is called:",
-      "choices": ["molting", "dolting", "dotting", "moulting"],
+      "choices": [
+        "molting",
+        "dolting",
+        "dotting",
+        "moulting"
+      ],
       "answer": "moulting"
     },
     {
       "id": 141,
       "title": "Humans shed their skin:",
-      "choices": ["false", "true"],
+      "choices": [
+        "false",
+        "true"
+      ],
       "answer": "true"
     },
     {
@@ -1063,19 +1634,31 @@
     {
       "id": 147,
       "title": "Acid turns red litmus paper to?",
-      "choices": ["red", "blue", "purple"],
+      "choices": [
+        "red",
+        "blue",
+        "purple"
+      ],
       "answer": "none of the above"
     },
     {
       "id": 148,
       "title": "A base turns blue litmus paper to color?",
-      "choices": ["red", "blue", "purple"],
+      "choices": [
+        "red",
+        "blue",
+        "purple"
+      ],
       "answer": "none of the above"
     },
     {
       "id": 149,
       "title": "The largest organ of the body is?",
-      "choices": ["liver", "lung", "brain"],
+      "choices": [
+        "liver",
+        "lung",
+        "brain"
+      ],
       "answer": "skin"
     },
     {
@@ -1091,25 +1674,41 @@
     {
       "id": 151,
       "title": "A word opposite in meaning to another word is?",
-      "choices": ["synonmy", "simile", "metaphor"],
+      "choices": [
+        "synonmy",
+        "simile",
+        "metaphor"
+      ],
       "answer": "antonym"
     },
     {
       "id": 152,
       "title": "The software used to visiting websites is called",
-      "choices": ["android", "operating system", "app"],
+      "choices": [
+        "android",
+        "operating system",
+        "app"
+      ],
       "answer": "web browser"
     },
     {
       "id": 153,
       "title": "The following are web browsers except",
-      "choices": ["chrome", "opera", "edge"],
+      "choices": [
+        "chrome",
+        "opera",
+        "edge"
+      ],
       "answer": "defender"
     },
     {
       "id": 154,
       "title": "The following are anti-viruses except",
-      "choices": ["Defender", "Avast", "Kaspersky"],
+      "choices": [
+        "Defender",
+        "Avast",
+        "Kaspersky"
+      ],
       "answer": "Orion"
     },
     {
@@ -1125,13 +1724,21 @@
     {
       "id": 156,
       "title": "The following are popular audio file extension except",
-      "choices": ["mp3", "m4a", "AAC"],
+      "choices": [
+        "mp3",
+        "m4a",
+        "AAC"
+      ],
       "answer": "mp4"
     },
     {
       "id": 157,
       "title": "The following are popular video file extensions except",
-      "choices": ["mp4", "avi", "mkv"],
+      "choices": [
+        "mp4",
+        "avi",
+        "mkv"
+      ],
       "answer": "mp3"
     },
     {
@@ -1144,6 +1751,18 @@
         "food crop"
       ],
       "answer": "cash crop"
+    },
+    {
+      "id": 159,
+      "title": "Silicon used for making micro-processors for phones, solar panels and computers is gotten from",
+      "choices": [
+        "petroleum",
+        "gold mines",
+        "antartica",
+        "china",
+        "the ocean"
+      ],
+      "answer": "sand"
     }
   ]
 }
