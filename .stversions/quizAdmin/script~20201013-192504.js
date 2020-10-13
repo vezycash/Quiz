@@ -1,17 +1,6 @@
-//Remove when development complete
-//helps with the weird situation where vs code forces a refresh because of changes in quizData on form submission.
-
-// window.onbeforeunload = (e) => e.preventDefault();
-
-//remove
-
 let quizForm = document.getElementById("quizForm");
 const noOfChoices = 4;
-
-quizForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  handleForm();
-});
+document.forms.quizForm.addEventListener("submit", handleForm);
 
 let question = document.getElementById("question");
 let answersDIV = document.getElementById("answersDIV");
@@ -34,7 +23,8 @@ let display = document.getElementById("display");
 // `
 // );
 
-function handleForm() {
+function handleForm(e) {
+  e.preventDefault();
   choices = [];
 
   answerRadio.forEach(
@@ -50,49 +40,28 @@ function handleForm() {
   }); //Assumes all input[type=text] have values. Assigns all options that aren't the right answer to the choices array.
 
   let newQuestion = {
-    id: "",
     title: question.value,
     choices,
     answer,
   };
-  submitQuiz(newQuestion);
-}
-
-async function submitQuiz(question) {
-  // https://stackoverflow.com/questions/50046841/proper-way-to-make-api-fetch-post-with-async-await
-  const config = {
-    method: "POST",
-    body: JSON.stringify(question),
-    headers: {
-      "Content-type": "application/json; charset=UTF-8",
-    },
-  };
-
-  try {
-    const response = await fetch(`http://localhost:3000/quiz/`, config);
-    const data = await response.json();
-    quizForm.reset();
-  } catch (e) {
-    console.log(e);
-    return e;
-  }
 }
 function removeOption(id) {
   document.getElementById(id).parentElement.remove();
 }
 
 function submitForm() {
-  // const data = {
-  //   id: "",
-  //   title: "Do you know my  name?",
-  //   choices: ["Yes", "hell no", "maybe"],
-  //   answer: "hell no",
-  // };
-  //   fetch(`http://localhost:3000/quiz/`, {
-  //     method: "POST",
-  //     body: JSON.stringify(data),
-  //     headers: { "Content-type": "application/json; charset=UTF-8" },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((json) => console.log(json));
+  const data = {
+    id: "",
+    title: "Do you know my  name?",
+    choices: ["Yes", "hell no", "maybe"],
+    answer: "hell no",
+  };
+
+  fetch(`http://localhost:3000/quiz/`, {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: { "Content-type": "application/json; charset=UTF-8" },
+  })
+    .then((response) => response.json())
+    .then((json) => console.log(json));
 }

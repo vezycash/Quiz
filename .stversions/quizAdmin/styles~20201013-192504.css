@@ -10,7 +10,7 @@
 
 body {
   width: 100vw;
-  min-height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   color: rgb(86, 83, 133);
@@ -30,14 +30,13 @@ body {
     rgba(76, 79, 236, 0.64),
     rgba(65, 65, 235, 0.6)
   );
-  /* background: linear-gradient(blue, 10%, pink); */
 }
 
 form {
   border: 1px solid black;
   width: 500px;
   min-height: 500px;
-  padding: 20px 40px;
+  padding: 40px;
   padding-right: 20px;
   padding-bottom: 0;
   margin: auto;
@@ -71,9 +70,8 @@ form {
 
 .option {
   /* border: 1px solid black; */
-  box-sizing: border-box;
   display: flex;
-  margin: 5px 0;
+  margin: 10px 0;
   width: 100%;
   align-items: center;
   padding: 5px 0;
@@ -133,14 +131,14 @@ input:focus {
 }
 
 .controlBtnDiv {
-  display: flex;
   /* border: 1px solid black; */
-  justify-content: space-between;
-  width: 80%;
+  display: flex;
   bottom: 0;
   margin-bottom: 20px;
+  justify-content: space-between;
   margin-top: 10px;
   position: absolute;
+  width: 400px;
 }
 
 .controlBtnDiv button {
@@ -153,29 +151,28 @@ input:focus {
   cursor: pointer;
   font-weight: bold;
 }
-.addBTN {
-  display: inline-block;
-  background-color: transparent;
+.outlineBTN {
   color: rgba(65, 65, 235, 0.5);
+  background-color: transparent;
   border: 1px rgba(65, 65, 235, 0.5) solid;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  user-select: none;
-  transition: ease 50ms;
 }
 
-.addBTN:hover {
+.outlineBTN:hover {
   color: white;
   background-color: rgba(65, 65, 235, 0.5);
-}
-.addBTN:active {
-  color: rgba(65, 65, 235, 0.5);
-  background-color: transparent;
 }
 button:hover {
   background-color: white;
   color: rgba(65, 65, 235, 0.5);
   transition: ease-in-out 150ms;
+}
+
+/* div > #display { */
+#display {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 700px;
+  min-height: 300px;
+  border: 5px solid black;
 }
