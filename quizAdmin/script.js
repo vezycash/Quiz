@@ -80,19 +80,3 @@ async function submitQuiz(question) {
 function removeOption(id) {
   document.getElementById(id).parentElement.remove();
 }
-
-function submitForm() {
-  // const data = {
-  //   id: "",
-  //   title: "Do you know my  name?",
-  //   choices: ["Yes", "hell no", "maybe"],
-  //   answer: "hell no",
-  // };
-  //   fetch(`http://localhost:3000/quiz/`, {
-  //     method: "POST",
-  //     body: JSON.stringify(data),
-  //     headers: { "Content-type": "application/json; charset=UTF-8" },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((json) => console.log(json));
-}
